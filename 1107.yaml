@@ -5,123 +5,641 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x, server: v1-aws-hk-03.niaoyun.online, port: 666, type: vmess, uuid: dcbd3481-eb2c-33bc-8cb3-a093b3b4e2bb, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: t.me/vpnpool}}
-  - {name: 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x, server: 18.236.146.125, port: 8888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
-  - {name: _99 | 6.34Mb, server: 212.102.54.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CH_82+@WangCai_1, server: 156.146.62.37, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
-  - {name: 🇺🇸 US(欢迎订阅YouTube：8度科技）, server: 156.146.33.74, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
-  - {name: 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜, server: 156.146.33.74, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
-  - {name: 挪威🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _216 | 6.61Mb, server: 66.115.182.68, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜 2, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_14955 |24.71Mb, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇷🇺 俄罗斯 | 公益 | A | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |, server: gonyi2.baiyun.pw, port: 831, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇨🇦 加拿大 | A | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 854, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇨🇦 加拿大 | A | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 629, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇨🇦 加拿大 | A | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 630, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇨🇦 加拿大 | A | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 631, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇮🇳 印度 | A | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 854, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇮🇳 印度 | A | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 626, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇮🇳 印度 | A | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 627, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇮🇳 印度 | A | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 628, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇩🇪 德国 | A | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 854, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇩🇪 德国 | A | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 635, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇩🇪 德国 | A | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 636, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇩🇪 德国 | A | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 637, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | A | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 850, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | A | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 608, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | A | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 609, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | A | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 610, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | B | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 851, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | B | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 611, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | B | 2x | 青铜 | AZ直连 |, server: qington001.baiyun.pw, port: 622, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | B | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 612, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | B | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 613, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | C | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 852, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | C | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 614, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | C | 2x | 青铜 |  AZ直连 |, server: qington001.baiyun.pw, port: 619, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | C | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 615, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | C | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 616, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | D | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 853, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | D | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 617, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | D | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 618, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | E | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 854, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | E | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 620, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇸🇬 新加坡 | E | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 621, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国   | 公益 | A | 2x  | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |, server: gonyi2.baiyun.pw, port: 837, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | A | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 855, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | A | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 865, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | A | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 866, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | A | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 867, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | B | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 856, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | B | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 868, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | B | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 869, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | B | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 870, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | C | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 857, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | C | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 888, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | C | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 903, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | C | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 906, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | D | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 858, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | D | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 908, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | D | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 911, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | D | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 912, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | E | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 859, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | E | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 914, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | E | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 915, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | E | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 916, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | F | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 860, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | F | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 918, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | F | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 919, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | F | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 920, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | G | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 861, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | G | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 948, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | G | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 949, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | G | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 950, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | H | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 862, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | H | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 951, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | H | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 600, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | H | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 601, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | i | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 863, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | i | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 602, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | i | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 603, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | i | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 604, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | J | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 864, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | J | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 605, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | J | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 606, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | J | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 607, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | 公益 | B | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |, server: gonyi2.baiyun.pw, port: 889, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | 公益 | C | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |, server: gonyi2.baiyun.pw, port: 839, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | 公益 | D | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |, server: gonyi2.baiyun.pw, port: 643, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇺🇸 美国 | 公益 | E | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |, server: gonyi2.baiyun.pw, port: 647, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇬🇧 英国 | A | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 854, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇬🇧 英国 | A | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 623, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇬🇧 英国 | A | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 624, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇬🇧 英国 | A | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 625, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇳🇱 荷兰 | A | 1 | 梦歌 |, server: qington001.baiyun.pw, port: 854, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇳🇱 荷兰 | A | 2 | 梦歌 |, server: qington001.baiyun.pw, port: 632, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇳🇱 荷兰 | A | 3 | 梦歌 |, server: qington001.baiyun.pw, port: 633, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: 🇳🇱 荷兰 | A | 4 | 梦歌 |, server: qington001.baiyun.pw, port: 634, type: vmess, uuid: e5f00e70-2590-34c5-ab34-e1e420396b58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: 1.baiyun.pw}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
-      - _99 | 6.34Mb
-      - CH_82+@WangCai_1
-      - 🇺🇸 US(欢迎订阅YouTube：8度科技）
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 挪威🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - _216 | 6.61Mb
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜 2
-      - ZZ_14955 |24.71Mb
-      - 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
+      - 🇷🇺 俄罗斯 | 公益 | A | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇨🇦 加拿大 | A | 1 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 2 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 3 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 4 | 梦歌 |
+      - 🇮🇳 印度 | A | 1 | 梦歌 |
+      - 🇮🇳 印度 | A | 2 | 梦歌 |
+      - 🇮🇳 印度 | A | 3 | 梦歌 |
+      - 🇮🇳 印度 | A | 4 | 梦歌 |
+      - 🇩🇪 德国 | A | 1 | 梦歌 |
+      - 🇩🇪 德国 | A | 2 | 梦歌 |
+      - 🇩🇪 德国 | A | 3 | 梦歌 |
+      - 🇩🇪 德国 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2x | 青铜 | AZ直连 |
+      - 🇸🇬 新加坡 | B | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2x | 青铜 |  AZ直连 |
+      - 🇸🇬 新加坡 | C | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 3 | 梦歌 |
+      - 🇺🇸 美国   | 公益 | A | 2x  | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | A | 1 | 梦歌 |
+      - 🇺🇸 美国 | A | 2 | 梦歌 |
+      - 🇺🇸 美国 | A | 3 | 梦歌 |
+      - 🇺🇸 美国 | A | 4 | 梦歌 |
+      - 🇺🇸 美国 | B | 1 | 梦歌 |
+      - 🇺🇸 美国 | B | 2 | 梦歌 |
+      - 🇺🇸 美国 | B | 3 | 梦歌 |
+      - 🇺🇸 美国 | B | 4 | 梦歌 |
+      - 🇺🇸 美国 | C | 1 | 梦歌 |
+      - 🇺🇸 美国 | C | 2 | 梦歌 |
+      - 🇺🇸 美国 | C | 3 | 梦歌 |
+      - 🇺🇸 美国 | C | 4 | 梦歌 |
+      - 🇺🇸 美国 | D | 1 | 梦歌 |
+      - 🇺🇸 美国 | D | 2 | 梦歌 |
+      - 🇺🇸 美国 | D | 3 | 梦歌 |
+      - 🇺🇸 美国 | D | 4 | 梦歌 |
+      - 🇺🇸 美国 | E | 1 | 梦歌 |
+      - 🇺🇸 美国 | E | 2 | 梦歌 |
+      - 🇺🇸 美国 | E | 3 | 梦歌 |
+      - 🇺🇸 美国 | E | 4 | 梦歌 |
+      - 🇺🇸 美国 | F | 1 | 梦歌 |
+      - 🇺🇸 美国 | F | 2 | 梦歌 |
+      - 🇺🇸 美国 | F | 3 | 梦歌 |
+      - 🇺🇸 美国 | F | 4 | 梦歌 |
+      - 🇺🇸 美国 | G | 1 | 梦歌 |
+      - 🇺🇸 美国 | G | 2 | 梦歌 |
+      - 🇺🇸 美国 | G | 3 | 梦歌 |
+      - 🇺🇸 美国 | G | 4 | 梦歌 |
+      - 🇺🇸 美国 | H | 1 | 梦歌 |
+      - 🇺🇸 美国 | H | 2 | 梦歌 |
+      - 🇺🇸 美国 | H | 3 | 梦歌 |
+      - 🇺🇸 美国 | H | 4 | 梦歌 |
+      - 🇺🇸 美国 | i | 1 | 梦歌 |
+      - 🇺🇸 美国 | i | 2 | 梦歌 |
+      - 🇺🇸 美国 | i | 3 | 梦歌 |
+      - 🇺🇸 美国 | i | 4 | 梦歌 |
+      - 🇺🇸 美国 | J | 1 | 梦歌 |
+      - 🇺🇸 美国 | J | 2 | 梦歌 |
+      - 🇺🇸 美国 | J | 3 | 梦歌 |
+      - 🇺🇸 美国 | J | 4 | 梦歌 |
+      - 🇺🇸 美国 | 公益 | B | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | C | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | D | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | E | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇬🇧 英国 | A | 1 | 梦歌 |
+      - 🇬🇧 英国 | A | 2 | 梦歌 |
+      - 🇬🇧 英国 | A | 3 | 梦歌 |
+      - 🇬🇧 英国 | A | 4 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 1 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 2 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 3 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 4 | 梦歌 |
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
-      - _99 | 6.34Mb
-      - CH_82+@WangCai_1
-      - 🇺🇸 US(欢迎订阅YouTube：8度科技）
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 挪威🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - _216 | 6.61Mb
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜 2
-      - ZZ_14955 |24.71Mb
-      - 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
+      - 🇷🇺 俄罗斯 | 公益 | A | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇨🇦 加拿大 | A | 1 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 2 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 3 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 4 | 梦歌 |
+      - 🇮🇳 印度 | A | 1 | 梦歌 |
+      - 🇮🇳 印度 | A | 2 | 梦歌 |
+      - 🇮🇳 印度 | A | 3 | 梦歌 |
+      - 🇮🇳 印度 | A | 4 | 梦歌 |
+      - 🇩🇪 德国 | A | 1 | 梦歌 |
+      - 🇩🇪 德国 | A | 2 | 梦歌 |
+      - 🇩🇪 德国 | A | 3 | 梦歌 |
+      - 🇩🇪 德国 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2x | 青铜 | AZ直连 |
+      - 🇸🇬 新加坡 | B | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2x | 青铜 |  AZ直连 |
+      - 🇸🇬 新加坡 | C | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 3 | 梦歌 |
+      - 🇺🇸 美国   | 公益 | A | 2x  | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | A | 1 | 梦歌 |
+      - 🇺🇸 美国 | A | 2 | 梦歌 |
+      - 🇺🇸 美国 | A | 3 | 梦歌 |
+      - 🇺🇸 美国 | A | 4 | 梦歌 |
+      - 🇺🇸 美国 | B | 1 | 梦歌 |
+      - 🇺🇸 美国 | B | 2 | 梦歌 |
+      - 🇺🇸 美国 | B | 3 | 梦歌 |
+      - 🇺🇸 美国 | B | 4 | 梦歌 |
+      - 🇺🇸 美国 | C | 1 | 梦歌 |
+      - 🇺🇸 美国 | C | 2 | 梦歌 |
+      - 🇺🇸 美国 | C | 3 | 梦歌 |
+      - 🇺🇸 美国 | C | 4 | 梦歌 |
+      - 🇺🇸 美国 | D | 1 | 梦歌 |
+      - 🇺🇸 美国 | D | 2 | 梦歌 |
+      - 🇺🇸 美国 | D | 3 | 梦歌 |
+      - 🇺🇸 美国 | D | 4 | 梦歌 |
+      - 🇺🇸 美国 | E | 1 | 梦歌 |
+      - 🇺🇸 美国 | E | 2 | 梦歌 |
+      - 🇺🇸 美国 | E | 3 | 梦歌 |
+      - 🇺🇸 美国 | E | 4 | 梦歌 |
+      - 🇺🇸 美国 | F | 1 | 梦歌 |
+      - 🇺🇸 美国 | F | 2 | 梦歌 |
+      - 🇺🇸 美国 | F | 3 | 梦歌 |
+      - 🇺🇸 美国 | F | 4 | 梦歌 |
+      - 🇺🇸 美国 | G | 1 | 梦歌 |
+      - 🇺🇸 美国 | G | 2 | 梦歌 |
+      - 🇺🇸 美国 | G | 3 | 梦歌 |
+      - 🇺🇸 美国 | G | 4 | 梦歌 |
+      - 🇺🇸 美国 | H | 1 | 梦歌 |
+      - 🇺🇸 美国 | H | 2 | 梦歌 |
+      - 🇺🇸 美国 | H | 3 | 梦歌 |
+      - 🇺🇸 美国 | H | 4 | 梦歌 |
+      - 🇺🇸 美国 | i | 1 | 梦歌 |
+      - 🇺🇸 美国 | i | 2 | 梦歌 |
+      - 🇺🇸 美国 | i | 3 | 梦歌 |
+      - 🇺🇸 美国 | i | 4 | 梦歌 |
+      - 🇺🇸 美国 | J | 1 | 梦歌 |
+      - 🇺🇸 美国 | J | 2 | 梦歌 |
+      - 🇺🇸 美国 | J | 3 | 梦歌 |
+      - 🇺🇸 美国 | J | 4 | 梦歌 |
+      - 🇺🇸 美国 | 公益 | B | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | C | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | D | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | E | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇬🇧 英国 | A | 1 | 梦歌 |
+      - 🇬🇧 英国 | A | 2 | 梦歌 |
+      - 🇬🇧 英国 | A | 3 | 梦歌 |
+      - 🇬🇧 英国 | A | 4 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 1 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 2 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 3 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 4 | 梦歌 |
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
-      - _99 | 6.34Mb
-      - CH_82+@WangCai_1
-      - 🇺🇸 US(欢迎订阅YouTube：8度科技）
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 挪威🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - _216 | 6.61Mb
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜 2
-      - ZZ_14955 |24.71Mb
-      - 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
+      - 🇷🇺 俄罗斯 | 公益 | A | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇨🇦 加拿大 | A | 1 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 2 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 3 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 4 | 梦歌 |
+      - 🇮🇳 印度 | A | 1 | 梦歌 |
+      - 🇮🇳 印度 | A | 2 | 梦歌 |
+      - 🇮🇳 印度 | A | 3 | 梦歌 |
+      - 🇮🇳 印度 | A | 4 | 梦歌 |
+      - 🇩🇪 德国 | A | 1 | 梦歌 |
+      - 🇩🇪 德国 | A | 2 | 梦歌 |
+      - 🇩🇪 德国 | A | 3 | 梦歌 |
+      - 🇩🇪 德国 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2x | 青铜 | AZ直连 |
+      - 🇸🇬 新加坡 | B | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2x | 青铜 |  AZ直连 |
+      - 🇸🇬 新加坡 | C | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 3 | 梦歌 |
+      - 🇺🇸 美国   | 公益 | A | 2x  | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | A | 1 | 梦歌 |
+      - 🇺🇸 美国 | A | 2 | 梦歌 |
+      - 🇺🇸 美国 | A | 3 | 梦歌 |
+      - 🇺🇸 美国 | A | 4 | 梦歌 |
+      - 🇺🇸 美国 | B | 1 | 梦歌 |
+      - 🇺🇸 美国 | B | 2 | 梦歌 |
+      - 🇺🇸 美国 | B | 3 | 梦歌 |
+      - 🇺🇸 美国 | B | 4 | 梦歌 |
+      - 🇺🇸 美国 | C | 1 | 梦歌 |
+      - 🇺🇸 美国 | C | 2 | 梦歌 |
+      - 🇺🇸 美国 | C | 3 | 梦歌 |
+      - 🇺🇸 美国 | C | 4 | 梦歌 |
+      - 🇺🇸 美国 | D | 1 | 梦歌 |
+      - 🇺🇸 美国 | D | 2 | 梦歌 |
+      - 🇺🇸 美国 | D | 3 | 梦歌 |
+      - 🇺🇸 美国 | D | 4 | 梦歌 |
+      - 🇺🇸 美国 | E | 1 | 梦歌 |
+      - 🇺🇸 美国 | E | 2 | 梦歌 |
+      - 🇺🇸 美国 | E | 3 | 梦歌 |
+      - 🇺🇸 美国 | E | 4 | 梦歌 |
+      - 🇺🇸 美国 | F | 1 | 梦歌 |
+      - 🇺🇸 美国 | F | 2 | 梦歌 |
+      - 🇺🇸 美国 | F | 3 | 梦歌 |
+      - 🇺🇸 美国 | F | 4 | 梦歌 |
+      - 🇺🇸 美国 | G | 1 | 梦歌 |
+      - 🇺🇸 美国 | G | 2 | 梦歌 |
+      - 🇺🇸 美国 | G | 3 | 梦歌 |
+      - 🇺🇸 美国 | G | 4 | 梦歌 |
+      - 🇺🇸 美国 | H | 1 | 梦歌 |
+      - 🇺🇸 美国 | H | 2 | 梦歌 |
+      - 🇺🇸 美国 | H | 3 | 梦歌 |
+      - 🇺🇸 美国 | H | 4 | 梦歌 |
+      - 🇺🇸 美国 | i | 1 | 梦歌 |
+      - 🇺🇸 美国 | i | 2 | 梦歌 |
+      - 🇺🇸 美国 | i | 3 | 梦歌 |
+      - 🇺🇸 美国 | i | 4 | 梦歌 |
+      - 🇺🇸 美国 | J | 1 | 梦歌 |
+      - 🇺🇸 美国 | J | 2 | 梦歌 |
+      - 🇺🇸 美国 | J | 3 | 梦歌 |
+      - 🇺🇸 美国 | J | 4 | 梦歌 |
+      - 🇺🇸 美国 | 公益 | B | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | C | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | D | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | E | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇬🇧 英国 | A | 1 | 梦歌 |
+      - 🇬🇧 英国 | A | 2 | 梦歌 |
+      - 🇬🇧 英国 | A | 3 | 梦歌 |
+      - 🇬🇧 英国 | A | 4 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 1 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 2 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 3 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 4 | 梦歌 |
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
-      - _99 | 6.34Mb
-      - CH_82+@WangCai_1
-      - 🇺🇸 US(欢迎订阅YouTube：8度科技）
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 挪威🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - _216 | 6.61Mb
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜 2
-      - ZZ_14955 |24.71Mb
-      - 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
+      - 🇷🇺 俄罗斯 | 公益 | A | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇨🇦 加拿大 | A | 1 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 2 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 3 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 4 | 梦歌 |
+      - 🇮🇳 印度 | A | 1 | 梦歌 |
+      - 🇮🇳 印度 | A | 2 | 梦歌 |
+      - 🇮🇳 印度 | A | 3 | 梦歌 |
+      - 🇮🇳 印度 | A | 4 | 梦歌 |
+      - 🇩🇪 德国 | A | 1 | 梦歌 |
+      - 🇩🇪 德国 | A | 2 | 梦歌 |
+      - 🇩🇪 德国 | A | 3 | 梦歌 |
+      - 🇩🇪 德国 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2x | 青铜 | AZ直连 |
+      - 🇸🇬 新加坡 | B | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2x | 青铜 |  AZ直连 |
+      - 🇸🇬 新加坡 | C | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 3 | 梦歌 |
+      - 🇺🇸 美国   | 公益 | A | 2x  | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | A | 1 | 梦歌 |
+      - 🇺🇸 美国 | A | 2 | 梦歌 |
+      - 🇺🇸 美国 | A | 3 | 梦歌 |
+      - 🇺🇸 美国 | A | 4 | 梦歌 |
+      - 🇺🇸 美国 | B | 1 | 梦歌 |
+      - 🇺🇸 美国 | B | 2 | 梦歌 |
+      - 🇺🇸 美国 | B | 3 | 梦歌 |
+      - 🇺🇸 美国 | B | 4 | 梦歌 |
+      - 🇺🇸 美国 | C | 1 | 梦歌 |
+      - 🇺🇸 美国 | C | 2 | 梦歌 |
+      - 🇺🇸 美国 | C | 3 | 梦歌 |
+      - 🇺🇸 美国 | C | 4 | 梦歌 |
+      - 🇺🇸 美国 | D | 1 | 梦歌 |
+      - 🇺🇸 美国 | D | 2 | 梦歌 |
+      - 🇺🇸 美国 | D | 3 | 梦歌 |
+      - 🇺🇸 美国 | D | 4 | 梦歌 |
+      - 🇺🇸 美国 | E | 1 | 梦歌 |
+      - 🇺🇸 美国 | E | 2 | 梦歌 |
+      - 🇺🇸 美国 | E | 3 | 梦歌 |
+      - 🇺🇸 美国 | E | 4 | 梦歌 |
+      - 🇺🇸 美国 | F | 1 | 梦歌 |
+      - 🇺🇸 美国 | F | 2 | 梦歌 |
+      - 🇺🇸 美国 | F | 3 | 梦歌 |
+      - 🇺🇸 美国 | F | 4 | 梦歌 |
+      - 🇺🇸 美国 | G | 1 | 梦歌 |
+      - 🇺🇸 美国 | G | 2 | 梦歌 |
+      - 🇺🇸 美国 | G | 3 | 梦歌 |
+      - 🇺🇸 美国 | G | 4 | 梦歌 |
+      - 🇺🇸 美国 | H | 1 | 梦歌 |
+      - 🇺🇸 美国 | H | 2 | 梦歌 |
+      - 🇺🇸 美国 | H | 3 | 梦歌 |
+      - 🇺🇸 美国 | H | 4 | 梦歌 |
+      - 🇺🇸 美国 | i | 1 | 梦歌 |
+      - 🇺🇸 美国 | i | 2 | 梦歌 |
+      - 🇺🇸 美国 | i | 3 | 梦歌 |
+      - 🇺🇸 美国 | i | 4 | 梦歌 |
+      - 🇺🇸 美国 | J | 1 | 梦歌 |
+      - 🇺🇸 美国 | J | 2 | 梦歌 |
+      - 🇺🇸 美国 | J | 3 | 梦歌 |
+      - 🇺🇸 美国 | J | 4 | 梦歌 |
+      - 🇺🇸 美国 | 公益 | B | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | C | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | D | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | E | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇬🇧 英国 | A | 1 | 梦歌 |
+      - 🇬🇧 英国 | A | 2 | 梦歌 |
+      - 🇬🇧 英国 | A | 3 | 梦歌 |
+      - 🇬🇧 英国 | A | 4 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 1 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 2 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 3 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 4 | 梦歌 |
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
-      - _99 | 6.34Mb
-      - CH_82+@WangCai_1
-      - 🇺🇸 US(欢迎订阅YouTube：8度科技）
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 挪威🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - _216 | 6.61Mb
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜 2
-      - ZZ_14955 |24.71Mb
-      - 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
+      - 🇷🇺 俄罗斯 | 公益 | A | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇨🇦 加拿大 | A | 1 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 2 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 3 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 4 | 梦歌 |
+      - 🇮🇳 印度 | A | 1 | 梦歌 |
+      - 🇮🇳 印度 | A | 2 | 梦歌 |
+      - 🇮🇳 印度 | A | 3 | 梦歌 |
+      - 🇮🇳 印度 | A | 4 | 梦歌 |
+      - 🇩🇪 德国 | A | 1 | 梦歌 |
+      - 🇩🇪 德国 | A | 2 | 梦歌 |
+      - 🇩🇪 德国 | A | 3 | 梦歌 |
+      - 🇩🇪 德国 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2x | 青铜 | AZ直连 |
+      - 🇸🇬 新加坡 | B | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2x | 青铜 |  AZ直连 |
+      - 🇸🇬 新加坡 | C | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 3 | 梦歌 |
+      - 🇺🇸 美国   | 公益 | A | 2x  | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | A | 1 | 梦歌 |
+      - 🇺🇸 美国 | A | 2 | 梦歌 |
+      - 🇺🇸 美国 | A | 3 | 梦歌 |
+      - 🇺🇸 美国 | A | 4 | 梦歌 |
+      - 🇺🇸 美国 | B | 1 | 梦歌 |
+      - 🇺🇸 美国 | B | 2 | 梦歌 |
+      - 🇺🇸 美国 | B | 3 | 梦歌 |
+      - 🇺🇸 美国 | B | 4 | 梦歌 |
+      - 🇺🇸 美国 | C | 1 | 梦歌 |
+      - 🇺🇸 美国 | C | 2 | 梦歌 |
+      - 🇺🇸 美国 | C | 3 | 梦歌 |
+      - 🇺🇸 美国 | C | 4 | 梦歌 |
+      - 🇺🇸 美国 | D | 1 | 梦歌 |
+      - 🇺🇸 美国 | D | 2 | 梦歌 |
+      - 🇺🇸 美国 | D | 3 | 梦歌 |
+      - 🇺🇸 美国 | D | 4 | 梦歌 |
+      - 🇺🇸 美国 | E | 1 | 梦歌 |
+      - 🇺🇸 美国 | E | 2 | 梦歌 |
+      - 🇺🇸 美国 | E | 3 | 梦歌 |
+      - 🇺🇸 美国 | E | 4 | 梦歌 |
+      - 🇺🇸 美国 | F | 1 | 梦歌 |
+      - 🇺🇸 美国 | F | 2 | 梦歌 |
+      - 🇺🇸 美国 | F | 3 | 梦歌 |
+      - 🇺🇸 美国 | F | 4 | 梦歌 |
+      - 🇺🇸 美国 | G | 1 | 梦歌 |
+      - 🇺🇸 美国 | G | 2 | 梦歌 |
+      - 🇺🇸 美国 | G | 3 | 梦歌 |
+      - 🇺🇸 美国 | G | 4 | 梦歌 |
+      - 🇺🇸 美国 | H | 1 | 梦歌 |
+      - 🇺🇸 美国 | H | 2 | 梦歌 |
+      - 🇺🇸 美国 | H | 3 | 梦歌 |
+      - 🇺🇸 美国 | H | 4 | 梦歌 |
+      - 🇺🇸 美国 | i | 1 | 梦歌 |
+      - 🇺🇸 美国 | i | 2 | 梦歌 |
+      - 🇺🇸 美国 | i | 3 | 梦歌 |
+      - 🇺🇸 美国 | i | 4 | 梦歌 |
+      - 🇺🇸 美国 | J | 1 | 梦歌 |
+      - 🇺🇸 美国 | J | 2 | 梦歌 |
+      - 🇺🇸 美国 | J | 3 | 梦歌 |
+      - 🇺🇸 美国 | J | 4 | 梦歌 |
+      - 🇺🇸 美国 | 公益 | B | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | C | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | D | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | E | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇬🇧 英国 | A | 1 | 梦歌 |
+      - 🇬🇧 英国 | A | 2 | 梦歌 |
+      - 🇬🇧 英国 | A | 3 | 梦歌 |
+      - 🇬🇧 英国 | A | 4 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 1 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 2 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 3 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 4 | 梦歌 |
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
-      - _99 | 6.34Mb
-      - CH_82+@WangCai_1
-      - 🇺🇸 US(欢迎订阅YouTube：8度科技）
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 挪威🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - _216 | 6.61Mb
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜 2
-      - ZZ_14955 |24.71Mb
-      - 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
+      - 🇷🇺 俄罗斯 | 公益 | A | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇨🇦 加拿大 | A | 1 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 2 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 3 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 4 | 梦歌 |
+      - 🇮🇳 印度 | A | 1 | 梦歌 |
+      - 🇮🇳 印度 | A | 2 | 梦歌 |
+      - 🇮🇳 印度 | A | 3 | 梦歌 |
+      - 🇮🇳 印度 | A | 4 | 梦歌 |
+      - 🇩🇪 德国 | A | 1 | 梦歌 |
+      - 🇩🇪 德国 | A | 2 | 梦歌 |
+      - 🇩🇪 德国 | A | 3 | 梦歌 |
+      - 🇩🇪 德国 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2x | 青铜 | AZ直连 |
+      - 🇸🇬 新加坡 | B | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2x | 青铜 |  AZ直连 |
+      - 🇸🇬 新加坡 | C | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 3 | 梦歌 |
+      - 🇺🇸 美国   | 公益 | A | 2x  | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | A | 1 | 梦歌 |
+      - 🇺🇸 美国 | A | 2 | 梦歌 |
+      - 🇺🇸 美国 | A | 3 | 梦歌 |
+      - 🇺🇸 美国 | A | 4 | 梦歌 |
+      - 🇺🇸 美国 | B | 1 | 梦歌 |
+      - 🇺🇸 美国 | B | 2 | 梦歌 |
+      - 🇺🇸 美国 | B | 3 | 梦歌 |
+      - 🇺🇸 美国 | B | 4 | 梦歌 |
+      - 🇺🇸 美国 | C | 1 | 梦歌 |
+      - 🇺🇸 美国 | C | 2 | 梦歌 |
+      - 🇺🇸 美国 | C | 3 | 梦歌 |
+      - 🇺🇸 美国 | C | 4 | 梦歌 |
+      - 🇺🇸 美国 | D | 1 | 梦歌 |
+      - 🇺🇸 美国 | D | 2 | 梦歌 |
+      - 🇺🇸 美国 | D | 3 | 梦歌 |
+      - 🇺🇸 美国 | D | 4 | 梦歌 |
+      - 🇺🇸 美国 | E | 1 | 梦歌 |
+      - 🇺🇸 美国 | E | 2 | 梦歌 |
+      - 🇺🇸 美国 | E | 3 | 梦歌 |
+      - 🇺🇸 美国 | E | 4 | 梦歌 |
+      - 🇺🇸 美国 | F | 1 | 梦歌 |
+      - 🇺🇸 美国 | F | 2 | 梦歌 |
+      - 🇺🇸 美国 | F | 3 | 梦歌 |
+      - 🇺🇸 美国 | F | 4 | 梦歌 |
+      - 🇺🇸 美国 | G | 1 | 梦歌 |
+      - 🇺🇸 美国 | G | 2 | 梦歌 |
+      - 🇺🇸 美国 | G | 3 | 梦歌 |
+      - 🇺🇸 美国 | G | 4 | 梦歌 |
+      - 🇺🇸 美国 | H | 1 | 梦歌 |
+      - 🇺🇸 美国 | H | 2 | 梦歌 |
+      - 🇺🇸 美国 | H | 3 | 梦歌 |
+      - 🇺🇸 美国 | H | 4 | 梦歌 |
+      - 🇺🇸 美国 | i | 1 | 梦歌 |
+      - 🇺🇸 美国 | i | 2 | 梦歌 |
+      - 🇺🇸 美国 | i | 3 | 梦歌 |
+      - 🇺🇸 美国 | i | 4 | 梦歌 |
+      - 🇺🇸 美国 | J | 1 | 梦歌 |
+      - 🇺🇸 美国 | J | 2 | 梦歌 |
+      - 🇺🇸 美国 | J | 3 | 梦歌 |
+      - 🇺🇸 美国 | J | 4 | 梦歌 |
+      - 🇺🇸 美国 | 公益 | B | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | C | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | D | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | E | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇬🇧 英国 | A | 1 | 梦歌 |
+      - 🇬🇧 英国 | A | 2 | 梦歌 |
+      - 🇬🇧 英国 | A | 3 | 梦歌 |
+      - 🇬🇧 英国 | A | 4 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 1 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 2 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 3 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 4 | 梦歌 |
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -144,18 +662,92 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
-      - _99 | 6.34Mb
-      - CH_82+@WangCai_1
-      - 🇺🇸 US(欢迎订阅YouTube：8度科技）
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - 挪威🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
-      - _216 | 6.61Mb
-      - 🇩🇪 德国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜 2
-      - ZZ_14955 |24.71Mb
-      - 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight午夜
+      - 🇷🇺 俄罗斯 | 公益 | A | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇨🇦 加拿大 | A | 1 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 2 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 3 | 梦歌 |
+      - 🇨🇦 加拿大 | A | 4 | 梦歌 |
+      - 🇮🇳 印度 | A | 1 | 梦歌 |
+      - 🇮🇳 印度 | A | 2 | 梦歌 |
+      - 🇮🇳 印度 | A | 3 | 梦歌 |
+      - 🇮🇳 印度 | A | 4 | 梦歌 |
+      - 🇩🇪 德国 | A | 1 | 梦歌 |
+      - 🇩🇪 德国 | A | 2 | 梦歌 |
+      - 🇩🇪 德国 | A | 3 | 梦歌 |
+      - 🇩🇪 德国 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | A | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 2x | 青铜 | AZ直连 |
+      - 🇸🇬 新加坡 | B | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | B | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 2x | 青铜 |  AZ直连 |
+      - 🇸🇬 新加坡 | C | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | C | 4 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | D | 3 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 1 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 2 | 梦歌 |
+      - 🇸🇬 新加坡 | E | 3 | 梦歌 |
+      - 🇺🇸 美国   | 公益 | A | 2x  | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | A | 1 | 梦歌 |
+      - 🇺🇸 美国 | A | 2 | 梦歌 |
+      - 🇺🇸 美国 | A | 3 | 梦歌 |
+      - 🇺🇸 美国 | A | 4 | 梦歌 |
+      - 🇺🇸 美国 | B | 1 | 梦歌 |
+      - 🇺🇸 美国 | B | 2 | 梦歌 |
+      - 🇺🇸 美国 | B | 3 | 梦歌 |
+      - 🇺🇸 美国 | B | 4 | 梦歌 |
+      - 🇺🇸 美国 | C | 1 | 梦歌 |
+      - 🇺🇸 美国 | C | 2 | 梦歌 |
+      - 🇺🇸 美国 | C | 3 | 梦歌 |
+      - 🇺🇸 美国 | C | 4 | 梦歌 |
+      - 🇺🇸 美国 | D | 1 | 梦歌 |
+      - 🇺🇸 美国 | D | 2 | 梦歌 |
+      - 🇺🇸 美国 | D | 3 | 梦歌 |
+      - 🇺🇸 美国 | D | 4 | 梦歌 |
+      - 🇺🇸 美国 | E | 1 | 梦歌 |
+      - 🇺🇸 美国 | E | 2 | 梦歌 |
+      - 🇺🇸 美国 | E | 3 | 梦歌 |
+      - 🇺🇸 美国 | E | 4 | 梦歌 |
+      - 🇺🇸 美国 | F | 1 | 梦歌 |
+      - 🇺🇸 美国 | F | 2 | 梦歌 |
+      - 🇺🇸 美国 | F | 3 | 梦歌 |
+      - 🇺🇸 美国 | F | 4 | 梦歌 |
+      - 🇺🇸 美国 | G | 1 | 梦歌 |
+      - 🇺🇸 美国 | G | 2 | 梦歌 |
+      - 🇺🇸 美国 | G | 3 | 梦歌 |
+      - 🇺🇸 美国 | G | 4 | 梦歌 |
+      - 🇺🇸 美国 | H | 1 | 梦歌 |
+      - 🇺🇸 美国 | H | 2 | 梦歌 |
+      - 🇺🇸 美国 | H | 3 | 梦歌 |
+      - 🇺🇸 美国 | H | 4 | 梦歌 |
+      - 🇺🇸 美国 | i | 1 | 梦歌 |
+      - 🇺🇸 美国 | i | 2 | 梦歌 |
+      - 🇺🇸 美国 | i | 3 | 梦歌 |
+      - 🇺🇸 美国 | i | 4 | 梦歌 |
+      - 🇺🇸 美国 | J | 1 | 梦歌 |
+      - 🇺🇸 美国 | J | 2 | 梦歌 |
+      - 🇺🇸 美国 | J | 3 | 梦歌 |
+      - 🇺🇸 美国 | J | 4 | 梦歌 |
+      - 🇺🇸 美国 | 公益 | B | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | C | 2x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | D | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇺🇸 美国 | 公益 | E | 1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |
+      - 🇬🇧 英国 | A | 1 | 梦歌 |
+      - 🇬🇧 英国 | A | 2 | 梦歌 |
+      - 🇬🇧 英国 | A | 3 | 梦歌 |
+      - 🇬🇧 英国 | A | 4 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 1 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 2 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 3 | 梦歌 |
+      - 🇳🇱 荷兰 | A | 4 | 梦歌 |
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
