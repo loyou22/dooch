@@ -5,7 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 101.132.192.212:30003, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
   - {name: 145.239.1.137:8091, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 118.107.244.112:5004, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 118.107.244.112:7307, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
@@ -43,9 +42,7 @@ proxies:
   - {name: "| 0.00Mb", server: 198.8.92.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: "| 1.79Mb", server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: "| 2.00Mb", server: 198.8.92.84, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: "| 2.03Mb", server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: "| 2.04Mb", server: 198.8.92.84, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: "| 2.05Mb", server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: "| 2.07Mb", server: 198.8.92.84, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
   - {name: "| 2.21Mb", server: 198.8.92.84, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
   - {name: "| 2.27Mb", server: 198.8.92.84, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
@@ -59,7 +56,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 101.132.192.212:30003
       - 145.239.1.137:8091
       - 118.107.244.112:5004
       - 118.107.244.112:7307
@@ -97,9 +93,7 @@ proxy-groups:
       - "| 0.00Mb"
       - "| 1.79Mb"
       - "| 2.00Mb"
-      - "| 2.03Mb"
       - "| 2.04Mb"
-      - "| 2.05Mb"
       - "| 2.07Mb"
       - "| 2.21Mb"
       - "| 2.27Mb"
@@ -113,7 +107,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 101.132.192.212:30003
       - 145.239.1.137:8091
       - 118.107.244.112:5004
       - 118.107.244.112:7307
@@ -151,9 +144,7 @@ proxy-groups:
       - "| 0.00Mb"
       - "| 1.79Mb"
       - "| 2.00Mb"
-      - "| 2.03Mb"
       - "| 2.04Mb"
-      - "| 2.05Mb"
       - "| 2.07Mb"
       - "| 2.21Mb"
       - "| 2.27Mb"
@@ -167,7 +158,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 101.132.192.212:30003
       - 145.239.1.137:8091
       - 118.107.244.112:5004
       - 118.107.244.112:7307
@@ -205,9 +195,7 @@ proxy-groups:
       - "| 0.00Mb"
       - "| 1.79Mb"
       - "| 2.00Mb"
-      - "| 2.03Mb"
       - "| 2.04Mb"
-      - "| 2.05Mb"
       - "| 2.07Mb"
       - "| 2.21Mb"
       - "| 2.27Mb"
@@ -220,7 +208,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 101.132.192.212:30003
       - 145.239.1.137:8091
       - 118.107.244.112:5004
       - 118.107.244.112:7307
@@ -258,9 +245,7 @@ proxy-groups:
       - "| 0.00Mb"
       - "| 1.79Mb"
       - "| 2.00Mb"
-      - "| 2.03Mb"
       - "| 2.04Mb"
-      - "| 2.05Mb"
       - "| 2.07Mb"
       - "| 2.21Mb"
       - "| 2.27Mb"
@@ -273,7 +258,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 101.132.192.212:30003
       - 145.239.1.137:8091
       - 118.107.244.112:5004
       - 118.107.244.112:7307
@@ -311,9 +295,7 @@ proxy-groups:
       - "| 0.00Mb"
       - "| 1.79Mb"
       - "| 2.00Mb"
-      - "| 2.03Mb"
       - "| 2.04Mb"
-      - "| 2.05Mb"
       - "| 2.07Mb"
       - "| 2.21Mb"
       - "| 2.27Mb"
@@ -326,7 +308,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 101.132.192.212:30003
       - 145.239.1.137:8091
       - 118.107.244.112:5004
       - 118.107.244.112:7307
@@ -364,9 +345,7 @@ proxy-groups:
       - "| 0.00Mb"
       - "| 1.79Mb"
       - "| 2.00Mb"
-      - "| 2.03Mb"
       - "| 2.04Mb"
-      - "| 2.05Mb"
       - "| 2.07Mb"
       - "| 2.21Mb"
       - "| 2.27Mb"
@@ -396,7 +375,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 101.132.192.212:30003
       - 145.239.1.137:8091
       - 118.107.244.112:5004
       - 118.107.244.112:7307
@@ -434,9 +412,7 @@ proxy-groups:
       - "| 0.00Mb"
       - "| 1.79Mb"
       - "| 2.00Mb"
-      - "| 2.03Mb"
       - "| 2.04Mb"
-      - "| 2.05Mb"
       - "| 2.07Mb"
       - "| 2.21Mb"
       - "| 2.27Mb"
