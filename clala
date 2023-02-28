@@ -5,87 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇦CA-🇺🇸US_533, server: z0115.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: PT09PQ==, obfs-param: PT09PQ==, udp: true}
-  - {name: Relay_-🇺🇸US_398, server: z0115.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_🇭🇰HK-🇭🇰HK_602, server: awshk10-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 3640e7d3-b3e0-430b-be5a-903d9a1aa596, sni: awshk10-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_510, server: awshk4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 3640e7d3-b3e0-430b-be5a-903d9a1aa596, sni: awshk4-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇯🇵JP_388, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Japan 04 TG:@nodpai, server: 139.162.113.113, port: 443, type: trojan, password: a4b8293b-af60-4f1b-8572-dea4f5b6cdef, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1357, server: 1.arsalanv3.sbs, port: 2095, type: vmess, uuid: 30352e00-4a3e-44da-fc92-da102f012f79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 1.arsalanv3.sbs}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1321, server: z0115.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: ====, obfs-param: ====, udp: true}
-  - {name: Relay 🇸🇬 Singapore 19 TG:@nodpai, server: hnm.xiaohouzi.club, port: 18634, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇮🇪IE-🇮🇪IE_616, server: z0116.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
-  - {name: Relay_🇮🇪IE-🇮🇪IE_586, server: z0116.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: ====, obfs-param: d3d3Lm1pY3Jvc29mdC5jb20jVXNlci1BZ2VudDpNb3ppbGxhLzUuMChpUGhvbmU7Q1BVaVBob25lT1MxMV80XzFsaWtlTWFjT1NYKUFwcGxlV2ViS2l0LzYwMi40LjYoS0hUTUwsbGlrZUdlY2tvKVZlcnNpb24vMTAuME1vYmlsZS8xNEQyN01pY3JvTWVzc2VuZ2VyLzYuNS4xM0FjY2VwdDovQ29ubmVjdGlvbjprZWVwLWFsaXZl====, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_507, server: z0113.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: PT09PQ==, obfs-param: PT09PQ==, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_506, server: z0113.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: ====, obfs-param: ====, udp: true}
-  - {name: Relay_-🇦🇺AU_397, server: z0113.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇧🇭BH_542, server: 117.164.185.221, port: 16105, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1320, server: z0114.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1319, server: z0114.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: PT09PQ======, obfs-param: PT09PQ======, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong 08 TG:@nodpai, server: 113.24.60.48, port: 46020, type: trojan, password: 8076ad5d-0cc9-4736-8c29-a912e7858337, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇮🇪IE-🇮🇪IE_592, server: z0116.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
+  - {name: Relay_-🇩🇪DE_393, server: z0110.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
+  - {name: Relay_🇩🇪DE-🇩🇪DE_528, server: z0110.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: ====, obfs-param: ====, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_601, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: ====, obfs-param: ====, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_602, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: PT09JSXvv70=, obfs-param: PT09JSXvv70=, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇦CA-🇺🇸US_533
-      - Relay_-🇺🇸US_398
-      - Relay_🇭🇰HK-🇭🇰HK_602
-      - Relay_🇦🇺AU-🇦🇺AU_510
+      - Relay_-🇯🇵JP_388
       - Japan 04 TG:@nodpai
-      - Relay_🇺🇸US-🇺🇸US_1357
-      - Relay_🇺🇸US-🇺🇸US_1321
-      - Relay 🇸🇬 Singapore 19 TG:@nodpai
-      - Relay_🇮🇪IE-🇮🇪IE_616
-      - Relay_🇮🇪IE-🇮🇪IE_586
-      - Relay_🇦🇺AU-🇦🇺AU_507
-      - Relay_🇦🇺AU-🇦🇺AU_506
-      - Relay_-🇦🇺AU_397
-      - Relay_🇨🇳CN-🇧🇭BH_542
-      - Relay_🇺🇸US-🇺🇸US_1320
-      - Relay_🇺🇸US-🇺🇸US_1319
+      - Relay 🇭🇰 Hong Kong 08 TG:@nodpai
+      - Relay_🇮🇪IE-🇮🇪IE_592
+      - Relay_-🇩🇪DE_393
+      - Relay_🇩🇪DE-🇩🇪DE_528
+      - Relay_🇯🇵JP-🇯🇵JP_601
+      - Relay_🇯🇵JP-🇯🇵JP_602
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇦CA-🇺🇸US_533
-      - Relay_-🇺🇸US_398
-      - Relay_🇭🇰HK-🇭🇰HK_602
-      - Relay_🇦🇺AU-🇦🇺AU_510
+      - Relay_-🇯🇵JP_388
       - Japan 04 TG:@nodpai
-      - Relay_🇺🇸US-🇺🇸US_1357
-      - Relay_🇺🇸US-🇺🇸US_1321
-      - Relay 🇸🇬 Singapore 19 TG:@nodpai
-      - Relay_🇮🇪IE-🇮🇪IE_616
-      - Relay_🇮🇪IE-🇮🇪IE_586
-      - Relay_🇦🇺AU-🇦🇺AU_507
-      - Relay_🇦🇺AU-🇦🇺AU_506
-      - Relay_-🇦🇺AU_397
-      - Relay_🇨🇳CN-🇧🇭BH_542
-      - Relay_🇺🇸US-🇺🇸US_1320
-      - Relay_🇺🇸US-🇺🇸US_1319
+      - Relay 🇭🇰 Hong Kong 08 TG:@nodpai
+      - Relay_🇮🇪IE-🇮🇪IE_592
+      - Relay_-🇩🇪DE_393
+      - Relay_🇩🇪DE-🇩🇪DE_528
+      - Relay_🇯🇵JP-🇯🇵JP_601
+      - Relay_🇯🇵JP-🇯🇵JP_602
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇦CA-🇺🇸US_533
-      - Relay_-🇺🇸US_398
-      - Relay_🇭🇰HK-🇭🇰HK_602
-      - Relay_🇦🇺AU-🇦🇺AU_510
+      - Relay_-🇯🇵JP_388
       - Japan 04 TG:@nodpai
-      - Relay_🇺🇸US-🇺🇸US_1357
-      - Relay_🇺🇸US-🇺🇸US_1321
-      - Relay 🇸🇬 Singapore 19 TG:@nodpai
-      - Relay_🇮🇪IE-🇮🇪IE_616
-      - Relay_🇮🇪IE-🇮🇪IE_586
-      - Relay_🇦🇺AU-🇦🇺AU_507
-      - Relay_🇦🇺AU-🇦🇺AU_506
-      - Relay_-🇦🇺AU_397
-      - Relay_🇨🇳CN-🇧🇭BH_542
-      - Relay_🇺🇸US-🇺🇸US_1320
-      - Relay_🇺🇸US-🇺🇸US_1319
+      - Relay 🇭🇰 Hong Kong 08 TG:@nodpai
+      - Relay_🇮🇪IE-🇮🇪IE_592
+      - Relay_-🇩🇪DE_393
+      - Relay_🇩🇪DE-🇩🇪DE_528
+      - Relay_🇯🇵JP-🇯🇵JP_601
+      - Relay_🇯🇵JP-🇯🇵JP_602
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,22 +72,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇦CA-🇺🇸US_533
-      - Relay_-🇺🇸US_398
-      - Relay_🇭🇰HK-🇭🇰HK_602
-      - Relay_🇦🇺AU-🇦🇺AU_510
+      - Relay_-🇯🇵JP_388
       - Japan 04 TG:@nodpai
-      - Relay_🇺🇸US-🇺🇸US_1357
-      - Relay_🇺🇸US-🇺🇸US_1321
-      - Relay 🇸🇬 Singapore 19 TG:@nodpai
-      - Relay_🇮🇪IE-🇮🇪IE_616
-      - Relay_🇮🇪IE-🇮🇪IE_586
-      - Relay_🇦🇺AU-🇦🇺AU_507
-      - Relay_🇦🇺AU-🇦🇺AU_506
-      - Relay_-🇦🇺AU_397
-      - Relay_🇨🇳CN-🇧🇭BH_542
-      - Relay_🇺🇸US-🇺🇸US_1320
-      - Relay_🇺🇸US-🇺🇸US_1319
+      - Relay 🇭🇰 Hong Kong 08 TG:@nodpai
+      - Relay_🇮🇪IE-🇮🇪IE_592
+      - Relay_-🇩🇪DE_393
+      - Relay_🇩🇪DE-🇩🇪DE_528
+      - Relay_🇯🇵JP-🇯🇵JP_601
+      - Relay_🇯🇵JP-🇯🇵JP_602
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -130,65 +90,41 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇦CA-🇺🇸US_533
-      - Relay_-🇺🇸US_398
-      - Relay_🇭🇰HK-🇭🇰HK_602
-      - Relay_🇦🇺AU-🇦🇺AU_510
+      - Relay_-🇯🇵JP_388
       - Japan 04 TG:@nodpai
-      - Relay_🇺🇸US-🇺🇸US_1357
-      - Relay_🇺🇸US-🇺🇸US_1321
-      - Relay 🇸🇬 Singapore 19 TG:@nodpai
-      - Relay_🇮🇪IE-🇮🇪IE_616
-      - Relay_🇮🇪IE-🇮🇪IE_586
-      - Relay_🇦🇺AU-🇦🇺AU_507
-      - Relay_🇦🇺AU-🇦🇺AU_506
-      - Relay_-🇦🇺AU_397
-      - Relay_🇨🇳CN-🇧🇭BH_542
-      - Relay_🇺🇸US-🇺🇸US_1320
-      - Relay_🇺🇸US-🇺🇸US_1319
+      - Relay 🇭🇰 Hong Kong 08 TG:@nodpai
+      - Relay_🇮🇪IE-🇮🇪IE_592
+      - Relay_-🇩🇪DE_393
+      - Relay_🇩🇪DE-🇩🇪DE_528
+      - Relay_🇯🇵JP-🇯🇵JP_601
+      - Relay_🇯🇵JP-🇯🇵JP_602
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇦CA-🇺🇸US_533
-      - Relay_-🇺🇸US_398
-      - Relay_🇭🇰HK-🇭🇰HK_602
-      - Relay_🇦🇺AU-🇦🇺AU_510
+      - Relay_-🇯🇵JP_388
       - Japan 04 TG:@nodpai
-      - Relay_🇺🇸US-🇺🇸US_1357
-      - Relay_🇺🇸US-🇺🇸US_1321
-      - Relay 🇸🇬 Singapore 19 TG:@nodpai
-      - Relay_🇮🇪IE-🇮🇪IE_616
-      - Relay_🇮🇪IE-🇮🇪IE_586
-      - Relay_🇦🇺AU-🇦🇺AU_507
-      - Relay_🇦🇺AU-🇦🇺AU_506
-      - Relay_-🇦🇺AU_397
-      - Relay_🇨🇳CN-🇧🇭BH_542
-      - Relay_🇺🇸US-🇺🇸US_1320
-      - Relay_🇺🇸US-🇺🇸US_1319
+      - Relay 🇭🇰 Hong Kong 08 TG:@nodpai
+      - Relay_🇮🇪IE-🇮🇪IE_592
+      - Relay_-🇩🇪DE_393
+      - Relay_🇩🇪DE-🇩🇪DE_528
+      - Relay_🇯🇵JP-🇯🇵JP_601
+      - Relay_🇯🇵JP-🇯🇵JP_602
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇦CA-🇺🇸US_533
-      - Relay_-🇺🇸US_398
-      - Relay_🇭🇰HK-🇭🇰HK_602
-      - Relay_🇦🇺AU-🇦🇺AU_510
+      - Relay_-🇯🇵JP_388
       - Japan 04 TG:@nodpai
-      - Relay_🇺🇸US-🇺🇸US_1357
-      - Relay_🇺🇸US-🇺🇸US_1321
-      - Relay 🇸🇬 Singapore 19 TG:@nodpai
-      - Relay_🇮🇪IE-🇮🇪IE_616
-      - Relay_🇮🇪IE-🇮🇪IE_586
-      - Relay_🇦🇺AU-🇦🇺AU_507
-      - Relay_🇦🇺AU-🇦🇺AU_506
-      - Relay_-🇦🇺AU_397
-      - Relay_🇨🇳CN-🇧🇭BH_542
-      - Relay_🇺🇸US-🇺🇸US_1320
-      - Relay_🇺🇸US-🇺🇸US_1319
+      - Relay 🇭🇰 Hong Kong 08 TG:@nodpai
+      - Relay_🇮🇪IE-🇮🇪IE_592
+      - Relay_-🇩🇪DE_393
+      - Relay_🇩🇪DE-🇩🇪DE_528
+      - Relay_🇯🇵JP-🇯🇵JP_601
+      - Relay_🇯🇵JP-🇯🇵JP_602
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -204,22 +140,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇦CA-🇺🇸US_533
-      - Relay_-🇺🇸US_398
-      - Relay_🇭🇰HK-🇭🇰HK_602
-      - Relay_🇦🇺AU-🇦🇺AU_510
+      - Relay_-🇯🇵JP_388
       - Japan 04 TG:@nodpai
-      - Relay_🇺🇸US-🇺🇸US_1357
-      - Relay_🇺🇸US-🇺🇸US_1321
-      - Relay 🇸🇬 Singapore 19 TG:@nodpai
-      - Relay_🇮🇪IE-🇮🇪IE_616
-      - Relay_🇮🇪IE-🇮🇪IE_586
-      - Relay_🇦🇺AU-🇦🇺AU_507
-      - Relay_🇦🇺AU-🇦🇺AU_506
-      - Relay_-🇦🇺AU_397
-      - Relay_🇨🇳CN-🇧🇭BH_542
-      - Relay_🇺🇸US-🇺🇸US_1320
-      - Relay_🇺🇸US-🇺🇸US_1319
+      - Relay 🇭🇰 Hong Kong 08 TG:@nodpai
+      - Relay_🇮🇪IE-🇮🇪IE_592
+      - Relay_-🇩🇪DE_393
+      - Relay_🇩🇪DE-🇩🇪DE_528
+      - Relay_🇯🇵JP-🇯🇵JP_601
+      - Relay_🇯🇵JP-🇯🇵JP_602
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
