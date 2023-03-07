@@ -5,391 +5,159 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay 🇭🇰 Hong Kong 10 TG:@nodpai, server: aws-hk01.aikun.online, port: 7045, type: trojan, password: c9c498df-683b-40b3-a1cb-b574c36f9433, sni: aws-hk01.aikun.online, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇸🇬 Singapore 29 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11022, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇸🇬 Singapore 07 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11019, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇸🇬 Singapore 21 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11020, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇸🇬 Singapore 22 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11017, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇸🇬 Singapore 06 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11021, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇯🇵 Japan 02 TG:@nodpai, server: 223.111.129.6, port: 54829, type: trojan, password: 74341a38-c634-492e-9385-50eb01dd59e4, skip-cert-verify: true, udp: true}
   - {name: Relay 🇵🇭 Philippines(ChatGPT) 01 TG:@nodpai, server: v02.gutingting.com, port: 30053, type: trojan, password: 4d8d3179-20b2-450a-b067-8d79074a95c4, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇯🇵 Japan 03 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11014, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇸🇬 Singapore 24 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11018, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇯🇵 Japan 17 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11016, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇯🇵 Japan 15 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11012, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Singapore 01 TG:@nodpai, server: 13.212.247.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: Relay 🇯🇵 Japan 07 TG:@nodpai, server: v02.gutingting.com, port: 30054, type: trojan, password: 0df09f80-2791-4628-b46e-32a3b1445149, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
-  - {name: Singapore 08 TG:@nodpai, server: sg02.170203.xyz, port: 43543, type: vmess, uuid: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg02.170203.xyz}, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong 04 TG:@nodpai, server: 120.241.255.196, port: 54585, type: trojan, password: 74341a38-c634-492e-9385-50eb01dd59e4, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong 06 TG:@nodpai, server: 120.241.255.196, port: 25462, type: trojan, password: 74341a38-c634-492e-9385-50eb01dd59e4, skip-cert-verify: true, udp: true}
-  - {name: Singapore 20 TG:@nodpai, server: sg05.170203.xyz, port: 43543, type: vmess, uuid: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg05.170203.xyz}, udp: true}
-  - {name: Singapore 13 TG:@nodpai, server: sg03.170203.xyz, port: 443, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: sg03.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Singapore 32 TG:@nodpai, server: sg002.170203.xyz, port: 43543, type: vmess, uuid: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg002.170203.xyz}, udp: true}
+  - {name: Relay 🇯🇵 Japan 14 TG:@nodpai, server: v01.gutingting.com, port: 20221, type: trojan, password: 4d8d3179-20b2-450a-b067-8d79074a95c4, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong 10 TG:@nodpai, server: aws-hk01.aikun.online, port: 7045, type: trojan, password: c9c498df-683b-40b3-a1cb-b574c36f9433, sni: aws-hk01.aikun.online, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong 21 TG:@nodpai, server: gzdx.jcnode.top, port: 20000, type: vmess, uuid: 45881576-ad3f-4546-a8da-acf380ed0743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gzdx.jcnode.top}, udp: true}
+  - {name: Relay 🇯🇵 Japan 29 TG:@nodpai, server: ddns.kunlunlancloud.com, port: 37093, type: ss, cipher: aes-128-gcm, password: 62bad9b7-cfb2-4989-b0b9-6cc9de4bb5c3, udp: true}
+  - {name: Relay 🇰🇷 South Korea(ChatGPT) 05 TG:@nodpai, server: v01.gutingting.com, port: 30056, type: trojan, password: 080864fb-d018-40a6-ac6d-741dd1be4f59, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
   - {name: Relay 🇯🇵 Japan 06 TG:@nodpai, server: v01.gutingting.com, port: 20220, type: trojan, password: 0df09f80-2791-4628-b46e-32a3b1445149, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
-  - {name: Singapore 30 TG:@nodpai, server: sg003.170203.xyz, port: 34333, type: vmess, uuid: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg003.170203.xyz}, udp: true}
-  - {name: Japan(ChatGPT) 03 TG:@nodpai, server: s-jp01.aikun.online, port: 10000, type: trojan, password: c9c498df-683b-40b3-a1cb-b574c36f9433, sni: s-jp01.aikun.online, skip-cert-verify: true, udp: true}
-  - {name: Singapore(ChatGPT) 17 TG:@nodpai, server: sg04.170203.xyz, port: 43543, type: vmess, uuid: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg04.170203.xyz}, udp: true}
-  - {name: Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai, server: v01.gutingting.com, port: 30056, type: trojan, password: ceb2d082-9af8-4cc6-86f8-8e3668e2e6db, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇹🇼 Taiwan(ChatGPT) 05 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11033, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Singapore 14 TG:@nodpai, server: sg001.170203.xyz, port: 43543, type: vmess, uuid: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg001.170203.xyz}, udp: true}
-  - {name: Japan 04 TG:@nodpai, server: jp06.170203.xyz, port: 23245, type: vmess, uuid: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp06.170203.xyz}, udp: true}
-  - {name: Singapore 12 TG:@nodpai, server: sg06.170203.xyz, port: 443, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: sg06.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Japan 24 TG:@nodpai, server: jp05.170203.xyz, port: 23245, type: vmess, uuid: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp05.170203.xyz}, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai, server: 120.241.255.196, port: 41687, type: trojan, password: 74341a38-c634-492e-9385-50eb01dd59e4, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇹🇼 Taiwan(ChatGPT) 06 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11035, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: South Korea 06 TG:@nodpai, server: kr01.170203.xyz, port: 443, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: kr01.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Japan 19 TG:@nodpai, server: jp04.170203.xyz, port: 23245, type: vmess, uuid: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp04.170203.xyz}, udp: true}
-  - {name: Relay 🇸🇬 Singapore 11 TG:@nodpai, server: v02.gutingting.com, port: 20223, type: trojan, password: ceb2d082-9af8-4cc6-86f8-8e3668e2e6db, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇮🇳 India 04 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11041, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong(ChatGPT) 07 TG:@nodpai, server: s.hkspeedup.com, port: 4003, type: ss, cipher: aes-256-gcm, password: 78jlyrl2qw, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong 25 TG:@nodpai, server: gzdx.jcnode.top, port: 20002, type: trojan, password: ef3ca339-23c5-4c74-8968-2c1f4fa1a090, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
   - {name: Relay 🇺🇸 United States 12 TG:@nodpai, server: v01.gutingting.com, port: 20224, type: trojan, password: ceb2d082-9af8-4cc6-86f8-8e3668e2e6db, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇹🇼 Taiwan(ChatGPT) 04 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11034, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇯🇵 Japan 18 TG:@nodpai, server: gzdx.jcnode.top, port: 41003, type: trojan, password: e30aa8d7-215e-4ed9-9bb4-6f28ff22c576, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
-  - {name: Japan 12 TG:@nodpai, server: jp03.170203.xyz, port: 23245, type: vmess, uuid: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp03.170203.xyz}, udp: true}
-  - {name: United States 17 TG:@nodpai, server: gzdx1.170203.xyz, port: 27528, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx1.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: United States(ChatGPT) 18 TG:@nodpai, server: gzdx1.170203.xyz, port: 11376, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx1.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇦🇺 Australia 01 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11048, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇯🇵 Japan 10 TG:@nodpai, server: gzdx0.170203.xyz, port: 47154, type: vmess, uuid: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gzdx0.170203.xyz}, udp: true}
-  - {name: Relay 🇳🇱 Netherlands 02 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11040, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇮🇳 India 02 TG:@nodpai, server: gddxd.fosi.hk, port: 63211, type: vmess, uuid: f00e05ef-4538-4663-80ab-0bfe71f97e54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gddxd.fosi.hk}, udp: true}
-  - {name: United States(ChatGPT) 12 TG:@nodpai, server: zzus01.gutingting.com, port: 20220, type: trojan, password: fb381786-0abb-4ec2-8823-af5712bc4eb8, sni: zzus01.gutingting.com, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇸🇬 Singapore 10 TG:@nodpai, server: gzdx.jcnode.top, port: 23002, type: vmess, uuid: ef3ca339-23c5-4c74-8968-2c1f4fa1a090, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gzdx.jcnode.top}, udp: true}
-  - {name: Relay 🇯🇵 Japan 20 TG:@nodpai, server: gzdx0.170203.xyz, port: 47475, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇸🇬 Singapore 27 TG:@nodpai, server: gzdx0.170203.xyz, port: 40125, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong 18 TG:@nodpai, server: gzdx0.170203.xyz, port: 37400, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇸🇬 Singapore 26 TG:@nodpai, server: gzdx0.170203.xyz, port: 51953, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong 13 TG:@nodpai, server: gzdx.jcnode.top, port: 40003, type: ss, cipher: aes-256-gcm, password: e30aa8d7-215e-4ed9-9bb4-6f28ff22c576, udp: true}
-  - {name: Relay 🇺🇸 United States 11 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11025, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇸🇬 Singapore(ChatGPT) 18 TG:@nodpai, server: gzdx0.170203.xyz, port: 27539, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇺🇸 United States 20 TG:@nodpai, server: gzdx0.170203.xyz, port: 39129, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇹🇼 Taiwan(ChatGPT) 08 TG:@nodpai, server: gzdx0.170203.xyz, port: 10290, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇯🇵 Japan(ChatGPT) 11 TG:@nodpai, server: gzdx0.170203.xyz, port: 54941, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇸🇬 Singapore(ChatGPT) 19 TG:@nodpai, server: gzdx0.170203.xyz, port: 33923, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG:@nodpai, server: s2.hkspeedup.com, port: 4102, type: ss, cipher: aes-256-gcm, password: 78jlyrl2qw, udp: true}
+  - {name: Relay 🇯🇵 Japan 07 TG:@nodpai, server: v02.gutingting.com, port: 30054, type: trojan, password: 0df09f80-2791-4628-b46e-32a3b1445149, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
   - {name: Relay 🇸🇬 Singapore 25 TG:@nodpai, server: gzdx.jcnode.top, port: 23001, type: vmess, uuid: f00e05ef-4538-4663-80ab-0bfe71f97e54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gzdx.jcnode.top}, udp: true}
-  - {name: Relay 🇺🇸 United States 21 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11024, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇺🇸 United States 13 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11023, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong(ChatGPT) 05 TG:@nodpai, server: s.hkspeedup.com, port: 4002, type: ss, cipher: aes-256-gcm, password: 78jlyrl2qw, udp: true}
   - {name: Relay 🇭🇰 Hong Kong 11 TG:@nodpai, server: v02.gutingting.com, port: 30038, type: trojan, password: 0df09f80-2791-4628-b46e-32a3b1445149, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇹🇭 Thailand 01 TG:@nodpai, server: v02.gutingting.com, port: 30052, type: trojan, password: 080864fb-d018-40a6-ac6d-741dd1be4f59, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇮🇳 India 03 TG:@nodpai, server: gddx.fosi.hk, port: 35024, type: vmess, uuid: ef3ca339-23c5-4c74-8968-2c1f4fa1a090, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gddx.fosi.hk}, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong 23 TG:@nodpai, server: gzdx.jcnode.top, port: 20003, type: trojan, password: ef3ca339-23c5-4c74-8968-2c1f4fa1a090, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
   - {name: United States 04 TG:@nodpai, server: us.disnet.gq, port: 443, type: trojan, password: 7c7e0edb-c45a-4c07-b66a-69b191179349, sni: us.disnet.gq, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇯🇵 Japan(ChatGPT) 14 TG:@nodpai, server: gzdx.jcnode.top, port: 41000, type: trojan, password: e30aa8d7-215e-4ed9-9bb4-6f28ff22c576, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇬🇧 United Kingdom 03 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11043, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇬🇧 United Kingdom 04 TG:@nodpai, server: v01.gutingting.com, port: 20226, type: trojan, password: 080864fb-d018-40a6-ac6d-741dd1be4f59, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong(ChatGPT) 19 TG:@nodpai, server: s.hkspeedup.com, port: 4101, type: ss, cipher: aes-256-gcm, password: 78jlyrl2qw, udp: true}
+  - {name: Relay 🇮🇳 India 02 TG:@nodpai, server: gddxd.fosi.hk, port: 63211, type: vmess, uuid: f00e05ef-4538-4663-80ab-0bfe71f97e54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gddxd.fosi.hk}, udp: true}
+  - {name: Relay 🇹🇼 Taiwan 03 TG:@nodpai, server: s2.hkspeedup.com, port: 4106, type: ss, cipher: aes-256-gcm, password: 78jlyrl2qw, udp: true}
+  - {name: Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai, server: v01.gutingting.com, port: 30056, type: trojan, password: ceb2d082-9af8-4cc6-86f8-8e3668e2e6db, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
   - {name: United Arab Emirates(ChatGPT) 01 TG:@nodpai, server: dubai-m.4422331.xyz, port: 10086, type: trojan, password: 4134219f-2384-449c-92e9-50fe8474c30a, sni: dubai-m.4422331.xyz, skip-cert-verify: true, udp: true}
-  - {name: United States(ChatGPT) 03 TG:@nodpai, server: prus2.k55779.cyou, port: 26672, type: trojan, password: 6nVzl-mgck26FqvBByHLF5lsCpRkvGDrhDpz3NkbGkizyH7O, sni: prus2.k55779.cyou, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong 17 TG:@nodpai, server: gzdx0.170203.xyz, port: 40611, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: United States 19 TG:@nodpai, server: us02.170203.xyz, port: 43543, type: vmess, uuid: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us02.170203.xyz}, udp: true}
-  - {name: Relay 🇻🇳 Viet Nam 01 TG:@nodpai, server: v02.gutingting.com, port: 30051, type: trojan, password: ceb2d082-9af8-4cc6-86f8-8e3668e2e6db, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇹🇼 Taiwan 09 TG:@nodpai, server: ddns.kunlunlancloud.com, port: 34567, type: ss, cipher: chacha20-ietf-poly1305, password: 62bad9b7-cfb2-4989-b0b9-6cc9de4bb5c3, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong 14 TG:@nodpai, server: gzdx.jcnode.top, port: 40002, type: ss, cipher: aes-256-gcm, password: e30aa8d7-215e-4ed9-9bb4-6f28ff22c576, udp: true}
-  - {name: Relay 🇺🇸 United States(ChatGPT) 23 TG:@nodpai, server: gzdx0.170203.xyz, port: 24800, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇨🇦 Canada 01 TG:@nodpai, server: catnet.aliyun-super.xyz, port: 11046, type: ss, cipher: aes-128-gcm, password: 8ae2a754-a5b6-432b-a665-a5d63c5813b9, udp: true}
-  - {name: Relay 🇺🇸 United States(ChatGPT) 04 TG:@nodpai, server: 223.111.129.6, port: 35477, type: trojan, password: 74341a38-c634-492e-9385-50eb01dd59e4, skip-cert-verify: true, udp: true}
-  - {name: Netherlands(ChatGPT) 01 TG:@nodpai, server: 185.212.200.76, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇬🇧 United Kingdom 05 TG:@nodpai, server: gzdx0.170203.xyz, port: 10244, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇷🇺 Russia 03 TG:@nodpai, server: gzdx0.170203.xyz, port: 53523, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: Lithuania(ChatGPT) 01 TG:@nodpai, server: let.eccoedmond.shop, port: 2096, type: vmess, uuid: da701bc6-b7ea-4de9-b706-dd4b8842a94d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: let.eccoedmond.shop}, udp: true}
-  - {name: Relay 🇸🇬 Singapore 09 TG:@nodpai, server: v02.gutingting.com, port: 30049, type: trojan, password: ceb2d082-9af8-4cc6-86f8-8e3668e2e6db, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇷🇺 Russia 04 TG:@nodpai, server: gzdx0.170203.xyz, port: 14515, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
   - {name: Relay 🇩🇪 Germany 05 TG:@nodpai, server: gddxd.fosi.hk, port: 63389, type: vmess, uuid: f00e05ef-4538-4663-80ab-0bfe71f97e54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gddxd.fosi.hk}, udp: true}
-  - {name: Spain 01 TG:@nodpai, server: 5.188.183.10, port: 43976, type: vmess, uuid: c7c72515-4d9a-4efa-cc84-fd799d378a19, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong 15 TG:@nodpai, server: gzdx.jcnode.top, port: 40001, type: trojan, password: e30aa8d7-215e-4ed9-9bb4-6f28ff22c576, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong 12 TG:@nodpai, server: v01.gutingting.com, port: 30005, type: trojan, password: 080864fb-d018-40a6-ac6d-741dd1be4f59, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇸🇬 Singapore(ChatGPT) 28 TG:@nodpai, server: gzdx0.170203.xyz, port: 59532, type: trojan, password: 2c9d4cfc-d353-48d8-83d9-41c9313da45f, sni: gzdx0.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: India 01 TG:@nodpai, server: 34.131.59.57, port: 80, type: vmess, uuid: e0b3a0fe-a89c-46ad-d291-7d27f8b1c9fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 34.131.59.57}, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong 16 TG:@nodpai, server: gzdx.jcnode.top, port: 40000, type: trojan, password: e30aa8d7-215e-4ed9-9bb4-6f28ff22c576, sni: gzdx.jcnode.top, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇸🇬 Singapore 31 TG:@nodpai, server: gzcm.xn--dlq110j6ul.cc, port: 26895, type: trojan, password: e30aa8d7-215e-4ed9-9bb4-6f28ff22c576, sni: gzcm.xn--dlq110j6ul.cc, skip-cert-verify: true, udp: true}
+  - {name: Netherlands(ChatGPT) 01 TG:@nodpai, server: 185.212.200.76, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇬🇧 United Kingdom 04 TG:@nodpai, server: v01.gutingting.com, port: 20226, type: trojan, password: 080864fb-d018-40a6-ac6d-741dd1be4f59, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: United States(ChatGPT) 03 TG:@nodpai, server: prus2.k55779.cyou, port: 26672, type: trojan, password: 6nVzl-mgck26FqvBByHLF5lsCpRkvGDrhDpz3NkbGkizyH7O, sni: prus2.k55779.cyou, skip-cert-verify: true, udp: true}
+  - {name: Lithuania(ChatGPT) 01 TG:@nodpai, server: let.eccoedmond.shop, port: 2096, type: vmess, uuid: da701bc6-b7ea-4de9-b706-dd4b8842a94d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: let.eccoedmond.shop}, udp: true}
+  - {name: Japan(ChatGPT) 03 TG:@nodpai, server: s-jp01.aikun.online, port: 10000, type: trojan, password: c9c498df-683b-40b3-a1cb-b574c36f9433, sni: s-jp01.aikun.online, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇬🇧 United Kingdom 04 TG:@nodpai 2, server: shcm.donghui.tech, port: 54692, type: trojan, password: ef3ca339-23c5-4c74-8968-2c1f4fa1a090, sni: shcm.donghui.tech, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇻🇳 Viet Nam 01 TG:@nodpai, server: v02.gutingting.com, port: 30051, type: trojan, password: ceb2d082-9af8-4cc6-86f8-8e3668e2e6db, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇹🇭 Thailand 01 TG:@nodpai, server: v02.gutingting.com, port: 30052, type: trojan, password: 080864fb-d018-40a6-ac6d-741dd1be4f59, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇸🇬 Singapore 11 TG:@nodpai, server: v02.gutingting.com, port: 20223, type: trojan, password: ceb2d082-9af8-4cc6-86f8-8e3668e2e6db, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇺🇸 United States(ChatGPT) 09 TG:@nodpai, server: s2.hkspeedup.com, port: 4104, type: ss, cipher: aes-256-gcm, password: 78jlyrl2qw, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
-      - Relay 🇸🇬 Singapore 29 TG:@nodpai
-      - Relay 🇸🇬 Singapore 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore 21 TG:@nodpai
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore 06 TG:@nodpai
-      - Relay 🇯🇵 Japan 02 TG:@nodpai
       - Relay 🇵🇭 Philippines(ChatGPT) 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 03 TG:@nodpai
-      - Relay 🇸🇬 Singapore 24 TG:@nodpai
-      - Relay 🇯🇵 Japan 17 TG:@nodpai
-      - Relay 🇯🇵 Japan 15 TG:@nodpai
-      - Singapore 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 07 TG:@nodpai
-      - Singapore 08 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 04 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - Singapore 20 TG:@nodpai
-      - Singapore 13 TG:@nodpai
-      - Singapore 32 TG:@nodpai
+      - Relay 🇯🇵 Japan 14 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - Relay 🇯🇵 Japan 29 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 05 TG:@nodpai
       - Relay 🇯🇵 Japan 06 TG:@nodpai
-      - Singapore 30 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Singapore(ChatGPT) 17 TG:@nodpai
-      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 05 TG:@nodpai
-      - Singapore 14 TG:@nodpai
-      - Japan 04 TG:@nodpai
-      - Singapore 12 TG:@nodpai
-      - Japan 24 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 06 TG:@nodpai
-      - South Korea 06 TG:@nodpai
-      - Japan 19 TG:@nodpai
-      - Relay 🇸🇬 Singapore 11 TG:@nodpai
-      - Relay 🇮🇳 India 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 07 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 25 TG:@nodpai
       - Relay 🇺🇸 United States 12 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 04 TG:@nodpai
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - Japan 12 TG:@nodpai
-      - United States 17 TG:@nodpai
-      - United States(ChatGPT) 18 TG:@nodpai
-      - Relay 🇦🇺 Australia 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 10 TG:@nodpai
-      - Relay 🇳🇱 Netherlands 02 TG:@nodpai
-      - Relay 🇮🇳 India 02 TG:@nodpai
-      - United States(ChatGPT) 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore 10 TG:@nodpai
-      - Relay 🇯🇵 Japan 20 TG:@nodpai
-      - Relay 🇸🇬 Singapore 27 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 18 TG:@nodpai
-      - Relay 🇸🇬 Singapore 26 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 13 TG:@nodpai
-      - Relay 🇺🇸 United States 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 18 TG:@nodpai
-      - Relay 🇺🇸 United States 20 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 08 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 19 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG:@nodpai
+      - Relay 🇯🇵 Japan 07 TG:@nodpai
       - Relay 🇸🇬 Singapore 25 TG:@nodpai
-      - Relay 🇺🇸 United States 21 TG:@nodpai
-      - Relay 🇺🇸 United States 13 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 05 TG:@nodpai
       - Relay 🇭🇰 Hong Kong 11 TG:@nodpai
-      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇮🇳 India 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
       - United States 04 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 14 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 03 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 19 TG:@nodpai
+      - Relay 🇮🇳 India 02 TG:@nodpai
+      - Relay 🇹🇼 Taiwan 03 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
       - United Arab Emirates(ChatGPT) 01 TG:@nodpai
-      - United States(ChatGPT) 03 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 17 TG:@nodpai
-      - United States 19 TG:@nodpai
-      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
-      - Relay 🇹🇼 Taiwan 09 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 14 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 23 TG:@nodpai
-      - Relay 🇨🇦 Canada 01 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 04 TG:@nodpai
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 05 TG:@nodpai
-      - Relay 🇷🇺 Russia 03 TG:@nodpai
-      - Lithuania(ChatGPT) 01 TG:@nodpai
-      - Relay 🇸🇬 Singapore 09 TG:@nodpai
-      - Relay 🇷🇺 Russia 04 TG:@nodpai
       - Relay 🇩🇪 Germany 05 TG:@nodpai
-      - Spain 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 28 TG:@nodpai
-      - India 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
-      - Relay 🇸🇬 Singapore 31 TG:@nodpai
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - United States(ChatGPT) 03 TG:@nodpai
+      - Lithuania(ChatGPT) 01 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai 2
+      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
+      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇸🇬 Singapore 11 TG:@nodpai
+      - Relay 🇺🇸 United States(ChatGPT) 09 TG:@nodpai
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
-      - Relay 🇸🇬 Singapore 29 TG:@nodpai
-      - Relay 🇸🇬 Singapore 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore 21 TG:@nodpai
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore 06 TG:@nodpai
-      - Relay 🇯🇵 Japan 02 TG:@nodpai
       - Relay 🇵🇭 Philippines(ChatGPT) 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 03 TG:@nodpai
-      - Relay 🇸🇬 Singapore 24 TG:@nodpai
-      - Relay 🇯🇵 Japan 17 TG:@nodpai
-      - Relay 🇯🇵 Japan 15 TG:@nodpai
-      - Singapore 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 07 TG:@nodpai
-      - Singapore 08 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 04 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - Singapore 20 TG:@nodpai
-      - Singapore 13 TG:@nodpai
-      - Singapore 32 TG:@nodpai
+      - Relay 🇯🇵 Japan 14 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - Relay 🇯🇵 Japan 29 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 05 TG:@nodpai
       - Relay 🇯🇵 Japan 06 TG:@nodpai
-      - Singapore 30 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Singapore(ChatGPT) 17 TG:@nodpai
-      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 05 TG:@nodpai
-      - Singapore 14 TG:@nodpai
-      - Japan 04 TG:@nodpai
-      - Singapore 12 TG:@nodpai
-      - Japan 24 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 06 TG:@nodpai
-      - South Korea 06 TG:@nodpai
-      - Japan 19 TG:@nodpai
-      - Relay 🇸🇬 Singapore 11 TG:@nodpai
-      - Relay 🇮🇳 India 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 07 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 25 TG:@nodpai
       - Relay 🇺🇸 United States 12 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 04 TG:@nodpai
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - Japan 12 TG:@nodpai
-      - United States 17 TG:@nodpai
-      - United States(ChatGPT) 18 TG:@nodpai
-      - Relay 🇦🇺 Australia 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 10 TG:@nodpai
-      - Relay 🇳🇱 Netherlands 02 TG:@nodpai
-      - Relay 🇮🇳 India 02 TG:@nodpai
-      - United States(ChatGPT) 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore 10 TG:@nodpai
-      - Relay 🇯🇵 Japan 20 TG:@nodpai
-      - Relay 🇸🇬 Singapore 27 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 18 TG:@nodpai
-      - Relay 🇸🇬 Singapore 26 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 13 TG:@nodpai
-      - Relay 🇺🇸 United States 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 18 TG:@nodpai
-      - Relay 🇺🇸 United States 20 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 08 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 19 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG:@nodpai
+      - Relay 🇯🇵 Japan 07 TG:@nodpai
       - Relay 🇸🇬 Singapore 25 TG:@nodpai
-      - Relay 🇺🇸 United States 21 TG:@nodpai
-      - Relay 🇺🇸 United States 13 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 05 TG:@nodpai
       - Relay 🇭🇰 Hong Kong 11 TG:@nodpai
-      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇮🇳 India 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
       - United States 04 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 14 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 03 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 19 TG:@nodpai
+      - Relay 🇮🇳 India 02 TG:@nodpai
+      - Relay 🇹🇼 Taiwan 03 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
       - United Arab Emirates(ChatGPT) 01 TG:@nodpai
-      - United States(ChatGPT) 03 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 17 TG:@nodpai
-      - United States 19 TG:@nodpai
-      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
-      - Relay 🇹🇼 Taiwan 09 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 14 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 23 TG:@nodpai
-      - Relay 🇨🇦 Canada 01 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 04 TG:@nodpai
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 05 TG:@nodpai
-      - Relay 🇷🇺 Russia 03 TG:@nodpai
-      - Lithuania(ChatGPT) 01 TG:@nodpai
-      - Relay 🇸🇬 Singapore 09 TG:@nodpai
-      - Relay 🇷🇺 Russia 04 TG:@nodpai
       - Relay 🇩🇪 Germany 05 TG:@nodpai
-      - Spain 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 28 TG:@nodpai
-      - India 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
-      - Relay 🇸🇬 Singapore 31 TG:@nodpai
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - United States(ChatGPT) 03 TG:@nodpai
+      - Lithuania(ChatGPT) 01 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai 2
+      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
+      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇸🇬 Singapore 11 TG:@nodpai
+      - Relay 🇺🇸 United States(ChatGPT) 09 TG:@nodpai
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
-      - Relay 🇸🇬 Singapore 29 TG:@nodpai
-      - Relay 🇸🇬 Singapore 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore 21 TG:@nodpai
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore 06 TG:@nodpai
-      - Relay 🇯🇵 Japan 02 TG:@nodpai
       - Relay 🇵🇭 Philippines(ChatGPT) 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 03 TG:@nodpai
-      - Relay 🇸🇬 Singapore 24 TG:@nodpai
-      - Relay 🇯🇵 Japan 17 TG:@nodpai
-      - Relay 🇯🇵 Japan 15 TG:@nodpai
-      - Singapore 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 07 TG:@nodpai
-      - Singapore 08 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 04 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - Singapore 20 TG:@nodpai
-      - Singapore 13 TG:@nodpai
-      - Singapore 32 TG:@nodpai
+      - Relay 🇯🇵 Japan 14 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - Relay 🇯🇵 Japan 29 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 05 TG:@nodpai
       - Relay 🇯🇵 Japan 06 TG:@nodpai
-      - Singapore 30 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Singapore(ChatGPT) 17 TG:@nodpai
-      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 05 TG:@nodpai
-      - Singapore 14 TG:@nodpai
-      - Japan 04 TG:@nodpai
-      - Singapore 12 TG:@nodpai
-      - Japan 24 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 06 TG:@nodpai
-      - South Korea 06 TG:@nodpai
-      - Japan 19 TG:@nodpai
-      - Relay 🇸🇬 Singapore 11 TG:@nodpai
-      - Relay 🇮🇳 India 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 07 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 25 TG:@nodpai
       - Relay 🇺🇸 United States 12 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 04 TG:@nodpai
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - Japan 12 TG:@nodpai
-      - United States 17 TG:@nodpai
-      - United States(ChatGPT) 18 TG:@nodpai
-      - Relay 🇦🇺 Australia 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 10 TG:@nodpai
-      - Relay 🇳🇱 Netherlands 02 TG:@nodpai
-      - Relay 🇮🇳 India 02 TG:@nodpai
-      - United States(ChatGPT) 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore 10 TG:@nodpai
-      - Relay 🇯🇵 Japan 20 TG:@nodpai
-      - Relay 🇸🇬 Singapore 27 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 18 TG:@nodpai
-      - Relay 🇸🇬 Singapore 26 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 13 TG:@nodpai
-      - Relay 🇺🇸 United States 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 18 TG:@nodpai
-      - Relay 🇺🇸 United States 20 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 08 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 19 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG:@nodpai
+      - Relay 🇯🇵 Japan 07 TG:@nodpai
       - Relay 🇸🇬 Singapore 25 TG:@nodpai
-      - Relay 🇺🇸 United States 21 TG:@nodpai
-      - Relay 🇺🇸 United States 13 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 05 TG:@nodpai
       - Relay 🇭🇰 Hong Kong 11 TG:@nodpai
-      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇮🇳 India 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
       - United States 04 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 14 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 03 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 19 TG:@nodpai
+      - Relay 🇮🇳 India 02 TG:@nodpai
+      - Relay 🇹🇼 Taiwan 03 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
       - United Arab Emirates(ChatGPT) 01 TG:@nodpai
-      - United States(ChatGPT) 03 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 17 TG:@nodpai
-      - United States 19 TG:@nodpai
-      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
-      - Relay 🇹🇼 Taiwan 09 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 14 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 23 TG:@nodpai
-      - Relay 🇨🇦 Canada 01 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 04 TG:@nodpai
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 05 TG:@nodpai
-      - Relay 🇷🇺 Russia 03 TG:@nodpai
-      - Lithuania(ChatGPT) 01 TG:@nodpai
-      - Relay 🇸🇬 Singapore 09 TG:@nodpai
-      - Relay 🇷🇺 Russia 04 TG:@nodpai
       - Relay 🇩🇪 Germany 05 TG:@nodpai
-      - Spain 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 28 TG:@nodpai
-      - India 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
-      - Relay 🇸🇬 Singapore 31 TG:@nodpai
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - United States(ChatGPT) 03 TG:@nodpai
+      - Lithuania(ChatGPT) 01 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai 2
+      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
+      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇸🇬 Singapore 11 TG:@nodpai
+      - Relay 🇺🇸 United States(ChatGPT) 09 TG:@nodpai
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -408,98 +176,40 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
-      - Relay 🇸🇬 Singapore 29 TG:@nodpai
-      - Relay 🇸🇬 Singapore 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore 21 TG:@nodpai
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore 06 TG:@nodpai
-      - Relay 🇯🇵 Japan 02 TG:@nodpai
       - Relay 🇵🇭 Philippines(ChatGPT) 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 03 TG:@nodpai
-      - Relay 🇸🇬 Singapore 24 TG:@nodpai
-      - Relay 🇯🇵 Japan 17 TG:@nodpai
-      - Relay 🇯🇵 Japan 15 TG:@nodpai
-      - Singapore 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 07 TG:@nodpai
-      - Singapore 08 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 04 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - Singapore 20 TG:@nodpai
-      - Singapore 13 TG:@nodpai
-      - Singapore 32 TG:@nodpai
+      - Relay 🇯🇵 Japan 14 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - Relay 🇯🇵 Japan 29 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 05 TG:@nodpai
       - Relay 🇯🇵 Japan 06 TG:@nodpai
-      - Singapore 30 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Singapore(ChatGPT) 17 TG:@nodpai
-      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 05 TG:@nodpai
-      - Singapore 14 TG:@nodpai
-      - Japan 04 TG:@nodpai
-      - Singapore 12 TG:@nodpai
-      - Japan 24 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 06 TG:@nodpai
-      - South Korea 06 TG:@nodpai
-      - Japan 19 TG:@nodpai
-      - Relay 🇸🇬 Singapore 11 TG:@nodpai
-      - Relay 🇮🇳 India 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 07 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 25 TG:@nodpai
       - Relay 🇺🇸 United States 12 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 04 TG:@nodpai
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - Japan 12 TG:@nodpai
-      - United States 17 TG:@nodpai
-      - United States(ChatGPT) 18 TG:@nodpai
-      - Relay 🇦🇺 Australia 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 10 TG:@nodpai
-      - Relay 🇳🇱 Netherlands 02 TG:@nodpai
-      - Relay 🇮🇳 India 02 TG:@nodpai
-      - United States(ChatGPT) 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore 10 TG:@nodpai
-      - Relay 🇯🇵 Japan 20 TG:@nodpai
-      - Relay 🇸🇬 Singapore 27 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 18 TG:@nodpai
-      - Relay 🇸🇬 Singapore 26 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 13 TG:@nodpai
-      - Relay 🇺🇸 United States 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 18 TG:@nodpai
-      - Relay 🇺🇸 United States 20 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 08 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 19 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG:@nodpai
+      - Relay 🇯🇵 Japan 07 TG:@nodpai
       - Relay 🇸🇬 Singapore 25 TG:@nodpai
-      - Relay 🇺🇸 United States 21 TG:@nodpai
-      - Relay 🇺🇸 United States 13 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 05 TG:@nodpai
       - Relay 🇭🇰 Hong Kong 11 TG:@nodpai
-      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇮🇳 India 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
       - United States 04 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 14 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 03 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 19 TG:@nodpai
+      - Relay 🇮🇳 India 02 TG:@nodpai
+      - Relay 🇹🇼 Taiwan 03 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
       - United Arab Emirates(ChatGPT) 01 TG:@nodpai
-      - United States(ChatGPT) 03 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 17 TG:@nodpai
-      - United States 19 TG:@nodpai
-      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
-      - Relay 🇹🇼 Taiwan 09 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 14 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 23 TG:@nodpai
-      - Relay 🇨🇦 Canada 01 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 04 TG:@nodpai
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 05 TG:@nodpai
-      - Relay 🇷🇺 Russia 03 TG:@nodpai
-      - Lithuania(ChatGPT) 01 TG:@nodpai
-      - Relay 🇸🇬 Singapore 09 TG:@nodpai
-      - Relay 🇷🇺 Russia 04 TG:@nodpai
       - Relay 🇩🇪 Germany 05 TG:@nodpai
-      - Spain 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 28 TG:@nodpai
-      - India 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
-      - Relay 🇸🇬 Singapore 31 TG:@nodpai
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - United States(ChatGPT) 03 TG:@nodpai
+      - Lithuania(ChatGPT) 01 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai 2
+      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
+      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇸🇬 Singapore 11 TG:@nodpai
+      - Relay 🇺🇸 United States(ChatGPT) 09 TG:@nodpai
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -510,293 +220,119 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
-      - Relay 🇸🇬 Singapore 29 TG:@nodpai
-      - Relay 🇸🇬 Singapore 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore 21 TG:@nodpai
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore 06 TG:@nodpai
-      - Relay 🇯🇵 Japan 02 TG:@nodpai
       - Relay 🇵🇭 Philippines(ChatGPT) 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 03 TG:@nodpai
-      - Relay 🇸🇬 Singapore 24 TG:@nodpai
-      - Relay 🇯🇵 Japan 17 TG:@nodpai
-      - Relay 🇯🇵 Japan 15 TG:@nodpai
-      - Singapore 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 07 TG:@nodpai
-      - Singapore 08 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 04 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - Singapore 20 TG:@nodpai
-      - Singapore 13 TG:@nodpai
-      - Singapore 32 TG:@nodpai
+      - Relay 🇯🇵 Japan 14 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - Relay 🇯🇵 Japan 29 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 05 TG:@nodpai
       - Relay 🇯🇵 Japan 06 TG:@nodpai
-      - Singapore 30 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Singapore(ChatGPT) 17 TG:@nodpai
-      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 05 TG:@nodpai
-      - Singapore 14 TG:@nodpai
-      - Japan 04 TG:@nodpai
-      - Singapore 12 TG:@nodpai
-      - Japan 24 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 06 TG:@nodpai
-      - South Korea 06 TG:@nodpai
-      - Japan 19 TG:@nodpai
-      - Relay 🇸🇬 Singapore 11 TG:@nodpai
-      - Relay 🇮🇳 India 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 07 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 25 TG:@nodpai
       - Relay 🇺🇸 United States 12 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 04 TG:@nodpai
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - Japan 12 TG:@nodpai
-      - United States 17 TG:@nodpai
-      - United States(ChatGPT) 18 TG:@nodpai
-      - Relay 🇦🇺 Australia 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 10 TG:@nodpai
-      - Relay 🇳🇱 Netherlands 02 TG:@nodpai
-      - Relay 🇮🇳 India 02 TG:@nodpai
-      - United States(ChatGPT) 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore 10 TG:@nodpai
-      - Relay 🇯🇵 Japan 20 TG:@nodpai
-      - Relay 🇸🇬 Singapore 27 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 18 TG:@nodpai
-      - Relay 🇸🇬 Singapore 26 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 13 TG:@nodpai
-      - Relay 🇺🇸 United States 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 18 TG:@nodpai
-      - Relay 🇺🇸 United States 20 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 08 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 19 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG:@nodpai
+      - Relay 🇯🇵 Japan 07 TG:@nodpai
       - Relay 🇸🇬 Singapore 25 TG:@nodpai
-      - Relay 🇺🇸 United States 21 TG:@nodpai
-      - Relay 🇺🇸 United States 13 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 05 TG:@nodpai
       - Relay 🇭🇰 Hong Kong 11 TG:@nodpai
-      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇮🇳 India 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
       - United States 04 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 14 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 03 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 19 TG:@nodpai
+      - Relay 🇮🇳 India 02 TG:@nodpai
+      - Relay 🇹🇼 Taiwan 03 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
       - United Arab Emirates(ChatGPT) 01 TG:@nodpai
-      - United States(ChatGPT) 03 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 17 TG:@nodpai
-      - United States 19 TG:@nodpai
-      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
-      - Relay 🇹🇼 Taiwan 09 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 14 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 23 TG:@nodpai
-      - Relay 🇨🇦 Canada 01 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 04 TG:@nodpai
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 05 TG:@nodpai
-      - Relay 🇷🇺 Russia 03 TG:@nodpai
-      - Lithuania(ChatGPT) 01 TG:@nodpai
-      - Relay 🇸🇬 Singapore 09 TG:@nodpai
-      - Relay 🇷🇺 Russia 04 TG:@nodpai
       - Relay 🇩🇪 Germany 05 TG:@nodpai
-      - Spain 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 28 TG:@nodpai
-      - India 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
-      - Relay 🇸🇬 Singapore 31 TG:@nodpai
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - United States(ChatGPT) 03 TG:@nodpai
+      - Lithuania(ChatGPT) 01 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai 2
+      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
+      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇸🇬 Singapore 11 TG:@nodpai
+      - Relay 🇺🇸 United States(ChatGPT) 09 TG:@nodpai
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
-      - Relay 🇸🇬 Singapore 29 TG:@nodpai
-      - Relay 🇸🇬 Singapore 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore 21 TG:@nodpai
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore 06 TG:@nodpai
-      - Relay 🇯🇵 Japan 02 TG:@nodpai
       - Relay 🇵🇭 Philippines(ChatGPT) 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 03 TG:@nodpai
-      - Relay 🇸🇬 Singapore 24 TG:@nodpai
-      - Relay 🇯🇵 Japan 17 TG:@nodpai
-      - Relay 🇯🇵 Japan 15 TG:@nodpai
-      - Singapore 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 07 TG:@nodpai
-      - Singapore 08 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 04 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - Singapore 20 TG:@nodpai
-      - Singapore 13 TG:@nodpai
-      - Singapore 32 TG:@nodpai
+      - Relay 🇯🇵 Japan 14 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - Relay 🇯🇵 Japan 29 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 05 TG:@nodpai
       - Relay 🇯🇵 Japan 06 TG:@nodpai
-      - Singapore 30 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Singapore(ChatGPT) 17 TG:@nodpai
-      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 05 TG:@nodpai
-      - Singapore 14 TG:@nodpai
-      - Japan 04 TG:@nodpai
-      - Singapore 12 TG:@nodpai
-      - Japan 24 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 06 TG:@nodpai
-      - South Korea 06 TG:@nodpai
-      - Japan 19 TG:@nodpai
-      - Relay 🇸🇬 Singapore 11 TG:@nodpai
-      - Relay 🇮🇳 India 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 07 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 25 TG:@nodpai
       - Relay 🇺🇸 United States 12 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 04 TG:@nodpai
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - Japan 12 TG:@nodpai
-      - United States 17 TG:@nodpai
-      - United States(ChatGPT) 18 TG:@nodpai
-      - Relay 🇦🇺 Australia 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 10 TG:@nodpai
-      - Relay 🇳🇱 Netherlands 02 TG:@nodpai
-      - Relay 🇮🇳 India 02 TG:@nodpai
-      - United States(ChatGPT) 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore 10 TG:@nodpai
-      - Relay 🇯🇵 Japan 20 TG:@nodpai
-      - Relay 🇸🇬 Singapore 27 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 18 TG:@nodpai
-      - Relay 🇸🇬 Singapore 26 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 13 TG:@nodpai
-      - Relay 🇺🇸 United States 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 18 TG:@nodpai
-      - Relay 🇺🇸 United States 20 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 08 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 19 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG:@nodpai
+      - Relay 🇯🇵 Japan 07 TG:@nodpai
       - Relay 🇸🇬 Singapore 25 TG:@nodpai
-      - Relay 🇺🇸 United States 21 TG:@nodpai
-      - Relay 🇺🇸 United States 13 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 05 TG:@nodpai
       - Relay 🇭🇰 Hong Kong 11 TG:@nodpai
-      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇮🇳 India 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
       - United States 04 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 14 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 03 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 19 TG:@nodpai
+      - Relay 🇮🇳 India 02 TG:@nodpai
+      - Relay 🇹🇼 Taiwan 03 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
       - United Arab Emirates(ChatGPT) 01 TG:@nodpai
-      - United States(ChatGPT) 03 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 17 TG:@nodpai
-      - United States 19 TG:@nodpai
-      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
-      - Relay 🇹🇼 Taiwan 09 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 14 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 23 TG:@nodpai
-      - Relay 🇨🇦 Canada 01 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 04 TG:@nodpai
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 05 TG:@nodpai
-      - Relay 🇷🇺 Russia 03 TG:@nodpai
-      - Lithuania(ChatGPT) 01 TG:@nodpai
-      - Relay 🇸🇬 Singapore 09 TG:@nodpai
-      - Relay 🇷🇺 Russia 04 TG:@nodpai
       - Relay 🇩🇪 Germany 05 TG:@nodpai
-      - Spain 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 28 TG:@nodpai
-      - India 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
-      - Relay 🇸🇬 Singapore 31 TG:@nodpai
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - United States(ChatGPT) 03 TG:@nodpai
+      - Lithuania(ChatGPT) 01 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai 2
+      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
+      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇸🇬 Singapore 11 TG:@nodpai
+      - Relay 🇺🇸 United States(ChatGPT) 09 TG:@nodpai
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
-      - Relay 🇸🇬 Singapore 29 TG:@nodpai
-      - Relay 🇸🇬 Singapore 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore 21 TG:@nodpai
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore 06 TG:@nodpai
-      - Relay 🇯🇵 Japan 02 TG:@nodpai
       - Relay 🇵🇭 Philippines(ChatGPT) 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 03 TG:@nodpai
-      - Relay 🇸🇬 Singapore 24 TG:@nodpai
-      - Relay 🇯🇵 Japan 17 TG:@nodpai
-      - Relay 🇯🇵 Japan 15 TG:@nodpai
-      - Singapore 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 07 TG:@nodpai
-      - Singapore 08 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 04 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - Singapore 20 TG:@nodpai
-      - Singapore 13 TG:@nodpai
-      - Singapore 32 TG:@nodpai
+      - Relay 🇯🇵 Japan 14 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - Relay 🇯🇵 Japan 29 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 05 TG:@nodpai
       - Relay 🇯🇵 Japan 06 TG:@nodpai
-      - Singapore 30 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Singapore(ChatGPT) 17 TG:@nodpai
-      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 05 TG:@nodpai
-      - Singapore 14 TG:@nodpai
-      - Japan 04 TG:@nodpai
-      - Singapore 12 TG:@nodpai
-      - Japan 24 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 06 TG:@nodpai
-      - South Korea 06 TG:@nodpai
-      - Japan 19 TG:@nodpai
-      - Relay 🇸🇬 Singapore 11 TG:@nodpai
-      - Relay 🇮🇳 India 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 07 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 25 TG:@nodpai
       - Relay 🇺🇸 United States 12 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 04 TG:@nodpai
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - Japan 12 TG:@nodpai
-      - United States 17 TG:@nodpai
-      - United States(ChatGPT) 18 TG:@nodpai
-      - Relay 🇦🇺 Australia 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 10 TG:@nodpai
-      - Relay 🇳🇱 Netherlands 02 TG:@nodpai
-      - Relay 🇮🇳 India 02 TG:@nodpai
-      - United States(ChatGPT) 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore 10 TG:@nodpai
-      - Relay 🇯🇵 Japan 20 TG:@nodpai
-      - Relay 🇸🇬 Singapore 27 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 18 TG:@nodpai
-      - Relay 🇸🇬 Singapore 26 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 13 TG:@nodpai
-      - Relay 🇺🇸 United States 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 18 TG:@nodpai
-      - Relay 🇺🇸 United States 20 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 08 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 19 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG:@nodpai
+      - Relay 🇯🇵 Japan 07 TG:@nodpai
       - Relay 🇸🇬 Singapore 25 TG:@nodpai
-      - Relay 🇺🇸 United States 21 TG:@nodpai
-      - Relay 🇺🇸 United States 13 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 05 TG:@nodpai
       - Relay 🇭🇰 Hong Kong 11 TG:@nodpai
-      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇮🇳 India 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
       - United States 04 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 14 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 03 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 19 TG:@nodpai
+      - Relay 🇮🇳 India 02 TG:@nodpai
+      - Relay 🇹🇼 Taiwan 03 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
       - United Arab Emirates(ChatGPT) 01 TG:@nodpai
-      - United States(ChatGPT) 03 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 17 TG:@nodpai
-      - United States 19 TG:@nodpai
-      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
-      - Relay 🇹🇼 Taiwan 09 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 14 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 23 TG:@nodpai
-      - Relay 🇨🇦 Canada 01 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 04 TG:@nodpai
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 05 TG:@nodpai
-      - Relay 🇷🇺 Russia 03 TG:@nodpai
-      - Lithuania(ChatGPT) 01 TG:@nodpai
-      - Relay 🇸🇬 Singapore 09 TG:@nodpai
-      - Relay 🇷🇺 Russia 04 TG:@nodpai
       - Relay 🇩🇪 Germany 05 TG:@nodpai
-      - Spain 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 28 TG:@nodpai
-      - India 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
-      - Relay 🇸🇬 Singapore 31 TG:@nodpai
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - United States(ChatGPT) 03 TG:@nodpai
+      - Lithuania(ChatGPT) 01 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai 2
+      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
+      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇸🇬 Singapore 11 TG:@nodpai
+      - Relay 🇺🇸 United States(ChatGPT) 09 TG:@nodpai
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -812,98 +348,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
-      - Relay 🇸🇬 Singapore 29 TG:@nodpai
-      - Relay 🇸🇬 Singapore 07 TG:@nodpai
-      - Relay 🇸🇬 Singapore 21 TG:@nodpai
-      - Relay 🇸🇬 Singapore 22 TG:@nodpai
-      - Relay 🇸🇬 Singapore 06 TG:@nodpai
-      - Relay 🇯🇵 Japan 02 TG:@nodpai
       - Relay 🇵🇭 Philippines(ChatGPT) 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 03 TG:@nodpai
-      - Relay 🇸🇬 Singapore 24 TG:@nodpai
-      - Relay 🇯🇵 Japan 17 TG:@nodpai
-      - Relay 🇯🇵 Japan 15 TG:@nodpai
-      - Singapore 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 07 TG:@nodpai
-      - Singapore 08 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 04 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - Singapore 20 TG:@nodpai
-      - Singapore 13 TG:@nodpai
-      - Singapore 32 TG:@nodpai
+      - Relay 🇯🇵 Japan 14 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 10 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 21 TG:@nodpai
+      - Relay 🇯🇵 Japan 29 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 05 TG:@nodpai
       - Relay 🇯🇵 Japan 06 TG:@nodpai
-      - Singapore 30 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Singapore(ChatGPT) 17 TG:@nodpai
-      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 05 TG:@nodpai
-      - Singapore 14 TG:@nodpai
-      - Japan 04 TG:@nodpai
-      - Singapore 12 TG:@nodpai
-      - Japan 24 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 06 TG:@nodpai
-      - South Korea 06 TG:@nodpai
-      - Japan 19 TG:@nodpai
-      - Relay 🇸🇬 Singapore 11 TG:@nodpai
-      - Relay 🇮🇳 India 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 07 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 25 TG:@nodpai
       - Relay 🇺🇸 United States 12 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 04 TG:@nodpai
-      - Relay 🇯🇵 Japan 18 TG:@nodpai
-      - Japan 12 TG:@nodpai
-      - United States 17 TG:@nodpai
-      - United States(ChatGPT) 18 TG:@nodpai
-      - Relay 🇦🇺 Australia 01 TG:@nodpai
-      - Relay 🇯🇵 Japan 10 TG:@nodpai
-      - Relay 🇳🇱 Netherlands 02 TG:@nodpai
-      - Relay 🇮🇳 India 02 TG:@nodpai
-      - United States(ChatGPT) 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore 10 TG:@nodpai
-      - Relay 🇯🇵 Japan 20 TG:@nodpai
-      - Relay 🇸🇬 Singapore 27 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 18 TG:@nodpai
-      - Relay 🇸🇬 Singapore 26 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 13 TG:@nodpai
-      - Relay 🇺🇸 United States 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 18 TG:@nodpai
-      - Relay 🇺🇸 United States 20 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 08 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 11 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 19 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG:@nodpai
+      - Relay 🇯🇵 Japan 07 TG:@nodpai
       - Relay 🇸🇬 Singapore 25 TG:@nodpai
-      - Relay 🇺🇸 United States 21 TG:@nodpai
-      - Relay 🇺🇸 United States 13 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 05 TG:@nodpai
       - Relay 🇭🇰 Hong Kong 11 TG:@nodpai
-      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇮🇳 India 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 23 TG:@nodpai
       - United States 04 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 14 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 03 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 19 TG:@nodpai
+      - Relay 🇮🇳 India 02 TG:@nodpai
+      - Relay 🇹🇼 Taiwan 03 TG:@nodpai
+      - Relay 🇰🇷 South Korea(ChatGPT) 04 TG:@nodpai
       - United Arab Emirates(ChatGPT) 01 TG:@nodpai
-      - United States(ChatGPT) 03 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 17 TG:@nodpai
-      - United States 19 TG:@nodpai
-      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
-      - Relay 🇹🇼 Taiwan 09 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 14 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 23 TG:@nodpai
-      - Relay 🇨🇦 Canada 01 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 04 TG:@nodpai
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 05 TG:@nodpai
-      - Relay 🇷🇺 Russia 03 TG:@nodpai
-      - Lithuania(ChatGPT) 01 TG:@nodpai
-      - Relay 🇸🇬 Singapore 09 TG:@nodpai
-      - Relay 🇷🇺 Russia 04 TG:@nodpai
       - Relay 🇩🇪 Germany 05 TG:@nodpai
-      - Spain 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 15 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 12 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 28 TG:@nodpai
-      - India 01 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 16 TG:@nodpai
-      - Relay 🇸🇬 Singapore 31 TG:@nodpai
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai
+      - United States(ChatGPT) 03 TG:@nodpai
+      - Lithuania(ChatGPT) 01 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 04 TG:@nodpai 2
+      - Relay 🇻🇳 Viet Nam 01 TG:@nodpai
+      - Relay 🇹🇭 Thailand 01 TG:@nodpai
+      - Relay 🇸🇬 Singapore 11 TG:@nodpai
+      - Relay 🇺🇸 United States(ChatGPT) 09 TG:@nodpai
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
