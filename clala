@@ -2,7 +2,7 @@ proxies:
   - {name: Rel443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: Relay 🇸🇬 Singapore 04 TG:@nodpai, server: v01.gutingting.com, port: 30050, type: trojan, password: bd79c899-1a52-430f-837c-c8149683afe7, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
   - {name: Relay 🇭🇰 Hong Kong 03 TG:@nodpai, server: in02.my1188.org, port: 63078, type: vmess, uuid: 8973d1e6-eef1-3659-852e-3c8456591901, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: Relay 🇸🇬 Singapore 03 TG:@nodpai, server: v01.gutingting.com, port: 20222, 79c899-1a52-430f-837c-c8149683afe7, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇸🇬 Singapore 03 TG:@nodpai, server: v01.gutingting.com, port: 20222, 79c899-1a52-430f-837c-c814968, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
   - {name: Relay 🇭🇰 Hong Kong(ChatGPT) 02 TG:@nodpai, server: m.lwvzmdu.cn, port: 16622, type: vmess, uuid: c45f590b-8f8e-490a-86cf-bb0b74cd28ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: m.lwvzmdu.cn}, udp: true}
   - {name: Relay 🇰🇷 South Korea(ChatGPT) 01 TG:@nodpai, server: v01.gutingting.com, port: 30056, type: trojan, password: bd79c899-1a52-430f-837c-c8149683afe7, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
   - {name: Singapore 01 TG:@nodpai, server: hk1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.nbvpn.org, port: 443, type: trojan, password: 6fab5b8e-2b5a-4ecd-82cb-fa3d1afb9ca7, sni: hk1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.nbvpn.org, skip-cert-verify: true, udp: true}
