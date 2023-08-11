@@ -1,12 +1,5 @@
 proxies:
-  - {name: Relay 🇯🇵 Japan 01 TG:@nodpai, server: cucc.jp01.pinssr.ml, port: 40211, type: vmess, uuid: 04fa4423-fc28-45ed-b95d-1bd6d3f2f9d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong 05 TG:@nodpai, server: 14.29.124.168, port: 31046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: United States(ChatGPT) 04 TG:@nodpai, server: 43.153.34.170, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
-  - {name: United States(ChatGPT) 03 TG:@nodpai, server: 141.11.103.163, port: 10048, type: vmess, uuid: 1d4e946f-29cc-42d7-bd7d-abc155322005, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 141.11.103.163}, udp: true}
-  - {name: Germany(ChatGPT) 01 TG:@nodpai, server: 95.217.30.252, port: 2083, type: vmess, uuid: 8990d035-5377-466a-e590-1160c8a39b6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 95.217.30.252}, udp: true}
-  - {name: Relay 🇭🇰 Hong Kong 08 TG:@nodpai, server: 120.241.255.196, port: 25462, type: trojan, password: 74341a38-c634-492e-9385-50eb01dd59e4, skip-cert-verify: true, udp: true}
-  - {name: India 01 TG:@nodpai, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: South Korea 02 TG:@nodpai, server: 43.201.48.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: Rel443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: Relay 🇸🇬 Singapore 04 TG:@nodpai, server: v01.gutingting.com, port: 30050, type: trojan, password: bd79c899-1a52-430f-837c-c8149683afe7, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
   - {name: Relay 🇭🇰 Hong Kong 03 TG:@nodpai, server: in02.my1188.org, port: 63078, type: vmess, uuid: 8973d1e6-eef1-3659-852e-3c8456591901, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
   - {name: Relay 🇸🇬 Singapore 03 TG:@nodpai, server: v01.gutingting.com, port: 20222, type: trojan, password: bd79c899-1a52-430f-837c-c8149683afe7, sni: v01.gutingting.com, skip-cert-verify: true, udp: true}
