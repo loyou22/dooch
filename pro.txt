@@ -7,6 +7,7 @@
 [2606:4700:5b:83ea:514e:53ea:1fdd:4383]#IP6
 [2606:4700:5b:83ea:51aa:c1aa:4957:7445]#IP6
 cf.090227.xyz#CM
+bestcf.030101.xyz#domain
 tg.wxgqlfx.top:50000#wxgqlfx
 bestcf.030101.xyz#ymyuuu
 bestali.030101.xyz#ymyuuu
