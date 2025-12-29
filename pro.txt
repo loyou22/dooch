@@ -20,13 +20,10 @@ cf.090227.xyz#CM
 bestcf.030101.xyz#domain
 bestcf.030101.xyz#ymyuuu
 bestali.030101.xyz#ymyuuu
-yg8.ygkkk.dpdns.org:443
-yg9.ygkkk.dpdns.org:8443
-yg10.ygkkk.dpdns.org:2053
-yg11.ygkkk.dpdns.org:2083
-yg12.ygkkk.dpdns.org:2087
-yg13.ygkkk.dpdns.org:2096
-116.122.137.81:50001#proxy
+yg9.ygkkk.dpdns.org:8443#yg9
+yg10.ygkkk.dpdns.org:2053#yg10
+yg13.ygkkk.dpdns.org:2096#yg13
+116.122.137.81:50001#proxyip
 101.126.13.70:8443#proxyip
 103.113.71.213:2053#proxyip
 103.99.11.193:8443#proxyip
