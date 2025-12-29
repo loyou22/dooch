@@ -6,6 +6,16 @@
 [2606:4700:5b:83e1:d2a3:ce54:84df:62b1]#IP6
 [2606:4700:5b:83ea:514e:53ea:1fdd:4383]#IP6
 [2606:4700:5b:83ea:51aa:c1aa:4957:7445]#IP6
+mfa.gov.ua:443#SG
+saas.sin.fan:443#JP
+store.ubi.com:443#SG
+cf.130519.xyz:443#KR
+cf.008500.xyz:443#HK
+cf.090227.xyz:443#SG
+cf.877774.xyz:443#HK
+cdns.doon.eu.org:443#JP
+sub.danfeng.eu.org:443#TW
+cf.zhetengsha.eu.org:443#HK
 cf.090227.xyz#CM
 bestcf.030101.xyz#domain
 bestcf.030101.xyz#ymyuuu
